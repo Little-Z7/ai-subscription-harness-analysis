@@ -1,0 +1,66 @@
+pageType: chapter
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · <span style="color:$primaryMid"><strong>第一梯队</strong></span> · 第二梯队 · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: chap-bignum
+    elementType: text
+    bounds: [48, 108, 300, 130]
+    content:
+      fontFamily: {latin: "Oranienbaum", ea: "思源宋体"}
+      fontSize: 108
+      bold: true
+      color: "$tint"
+      wrap: false
+      align: [left, middle]
+      text: "02"
+  - elementId: chap-kicker
+    elementType: text
+    bounds: [52, 246, 400, 15]
+    content: {style: "$kicker", wrap: false, text: TIER 1 · 顶级国际与头部产品}
+  - elementId: chap-title
+    elementType: text
+    bounds: [48, 268, 720, 48]
+    content:
+      style: "$pageTitle"
+      fontSize: 34
+      wrap: false
+      align: [left, middle]
+      text: 第一梯队
+  - elementId: chap-sub
+    elementType: text
+    bounds: [48, 324, 720, 20]
+    content:
+      style: "$pageSub"
+      fontSize: 13
+      wrap: false
+      text: 模型与工具双双全球头部，生态闭环最深——订阅与自家 Harness 焊得最死的一组
+  - elementId: chap-bar
+    elementType: shape
+    bounds: [48, 362, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: chap-list
+    elementType: text
+    bounds: [48, 390, 820, 90]
+    content:
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      align: [left, top]
+      text: |
+        <p><span style="font-size:12px; color:$primary"><strong>06</strong></span><span style="font-size:12px; color:$ink"><strong>　Cloud Cursor</strong></span><span style="font-size:10px; color:$gray">　云端 Agent 触发面最广的 AI IDE，自家 Composer 模型无 API</span></p>
+        <p style="margin-top:9px"><span style="font-size:12px; color:$primary"><strong>07</strong></span><span style="font-size:12px; color:$ink"><strong>　OpenCode Go</strong></span><span style="font-size:10px; color:$gray">　开源终端 Agent 的平价订阅通道，梯队中唯一的「反闭环」玩家</span></p>
+        <p style="margin-top:9px"><span style="font-size:12px; color:$primary"><strong>08</strong></span><span style="font-size:12px; color:$ink"><strong>　SuperGrok</strong></span><span style="font-size:10px; color:$gray">　xAI 的高价订阅，Grok Build 仅限订阅用户，附赠 Cursor Ultra 的联盟式闭环</span></p>
+        <p style="margin-top:9px"><span style="font-size:12px; color:$primary"><strong>09</strong></span><span style="font-size:12px; color:$ink"><strong>　Codex × ChatGPT</strong></span><span style="font-size:10px; color:$gray">　没有独立 SKU 的编程工具，焊死在每一档 ChatGPT 会员里</span></p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "05 / 24"}

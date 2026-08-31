@@ -1,0 +1,111 @@
+pageType: final
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: RECOMMENDATIONS · 选型建议}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · 第二梯队 · 第三梯队 · 办公Agent · <span style="color:$primaryMid"><strong>总结</strong></span></p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: 选型路线：先定你要天天用的 Harness 工具，再买它背后的订阅
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 工具决定体验上限，订阅决定使用额度——顺序别反了}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: rec-table
+    elementType: table
+    bounds: [48, 130, 864, 246]
+    columnWidths: [0.2, 0.3, 0.3, 0.2]
+    rowHeights: [0.13, 0.145, 0.145, 0.145, 0.145, 0.145, 0.145]
+    style: "$default"
+    rows:
+      - - text: 你是谁
+        - text: 推荐「订阅 × 工具」组合
+        - text: 理由
+        - text: 月成本参考
+      - - text: 国际全栈 · 预算充足
+        - text: Cursor Pro+ / Ultra × Cursor 全家桶
+        - text: 云端 Agent 触发面最广，自家模型池 1/10 成本
+        - text: $60–200
+      - - text: GitHub 重度团队
+        - text: ChatGPT Plus/Business × Codex 云端
+        - text: PR 委派 + 自动 review，免费档即可试水
+        - text: $20–25/席
+      - - text: 国内终端主力开发
+        - text: Kimi 会员 × Kimi Code；智谱 Coding Plan × Claude Code/Z Code
+        - text: 国产 CLI 成熟度前二，直连无代理
+        - text: ¥94–199
+      - - text: 极致性价比 / 学生
+        - text: 小米 MiMo ¥39、阶跃 ¥99、MiniMax ¥49
+        - text: 兼容主流 Harness，成本为 Claude Pro 的 1/3
+        - text: ¥39–99
+      - - text: 多模型聚合需求
+        - text: 火山引擎 Coding Plan × TRAE
+        - text: 一站聚合国产全系模型 + Auto 调度
+        - text: ¥40–200
+      - - text: 隐私优先 / 本地部署
+        - text: Ollama 本地（免费）+ Cloud Pro 溢出
+        - text: 数据不出机，固定月费无爆表焦虑
+        - text: $0–20
+  - elementId: office-note
+    elementType: text
+    bounds: [48, 390, 864, 30]
+    content:
+      style: "$small"
+      fontSize: 10
+      align: [left, top]
+      text: |
+        <p><strong>办公场景另行选型</strong>：知识工作者优先看腾讯 WorkBuddy（微信/企微生态）、阿里千问办公（钉钉组织打通）、字节豆包工作（飞书 + 多模态），按所在 IM 生态站队即可。</p>
+  - elementId: final-accent
+    elementType: shape
+    bounds: [48, 438, 4, 40]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: final-quote
+    elementType: text
+    bounds: [66, 434, 846, 48]
+    content:
+      align: [left, middle]
+      text: |
+        <p><span style="font-size:16px; color:$ink; font-family:思源宋体"><strong>订阅只是入场券，Harness 工具才是主战场。</strong></span></p>
+        <p style="margin-top:4px"><span style="font-size:10px; color:$gray">2026 年的正确答案不是「哪个订阅最值」，而是「哪对订阅 × 工具组合最适合你的日常工作流」。</span></p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: 各厂商官网定价页（2026-08）；促销价时效性强，购买前以官网当日价格为准</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "24 / 24"}
