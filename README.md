@@ -1,5 +1,7 @@
 # AI 订阅与 Harness 工具生态对比分析
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 > 订阅只是入场券，Harness 工具才是主战场。
 > 三大梯队 · 18+ 款产品 ·「订阅 × 自家工具」绑定式横向评测（数据截至 2026-08）
 
@@ -30,6 +32,10 @@
 ## 视频封面
 
 配套 16:9 视频封面（深墨蓝 + 铜色，与 PPT 同一视觉体系）为二进制 PNG 文件，请从 Kimi 对话产物中获取后手动上传（GitHub MCP 暂不支持二进制文件可靠上传）。
+
+## License
+
+本项目采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans) 知识共享署名 4.0 国际许可协议：可自由分享与改编（包括商用），只需署名原作者并标明是否做了修改。
 
 ---
 *由 Kimi Agent 多智能体协作生成：3 个研究 Agent + 3 个撰写 Agent 并行作业，全册通过 kimi-slides 校验。*
