@@ -1,0 +1,160 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 1 · 第一梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · <span style="color:$primaryMid"><strong>第一梯队</strong></span> · 第二梯队 · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: Composer 2.5 无公开 API：订阅是唯一入口
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: Pro $20 解锁 Composer 2.5 与触发面业界最广的 Cloud Agents；第三方模型按 API 价计费，烧钱最快}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 38]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter"><strong>Cloud Cursor</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$gray">Anysphere · AI 原生 IDE 与云端 Agent 平台</span></p>
+  - elementId: left-h1
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 订阅档位与价格}
+  - elementId: price-table
+    elementType: table
+    bounds: [48, 204, 300, 144]
+    style: "$default"
+    columnWidths: [0.21, 0.32, 0.47]
+    rowHeights: [24, 24, 24, 24, 24, 24]
+    rows:
+        - [{text: "档位"}, {text: "价格/月"}, {text: "要点"}]
+        - [{text: "Hobby"}, {text: "免费"}, {text: "体验额度"}]
+        - [{text: "Pro"}, {text: "$20"}, {text: "自家池＋$20 第三方用量"}]
+        - [{text: "Pro+"}, {text: "$60"}, {text: "年付$48·用量加量"}]
+        - [{text: "Ultra"}, {text: "$200"}, {text: "自家池＋$400 第三方用量"}]
+        - [{text: "Teams"}, {text: "$40–120/席"}, {text: "团队管理"}]
+  - elementId: left-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 独特卖点与短板}
+  - elementId: left-usp
+    elementType: text
+    bounds: [48, 380, 300, 60]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：全模型一站接入，云端 Agent 触发面最广；年付约 8 折（Pro $16 / Ultra $160）。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：年内三改计费、超额账单易失控；Composer 无 API 进不了 CI。</p>
+  - elementId: r1-h
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 模型能力}
+  - elementId: r1-b
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>自家 <strong>Composer 2.5</strong>（基于 Kimi K2.5 基座＋自有 RL 后训练）SWE-Bench Multilingual <strong>79.8%</strong>，价格约为 Opus 的 1/10；Grok 4.5/4.6 同步入池。第三方 Claude / GPT-5.x / Gemini 按 API 价计费，额度烧得飞快。</p>
+  - elementId: r1-line
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: r2-h
+    elementType: text
+    bounds: [376, 228, 536, 15]
+    content:
+      style: "$h2"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>配套 Harness 工具　<span style="color:$accent">●●●●●</span></p>
+  - elementId: r2-b
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>桌面 IDE（Agents Window 多 Agent 并行）＋ Cursor CLI ＋ <strong>Cloud Agents</strong>（Slack / GitHub PR / Linear / 手机 / API 触发，触发面业界最广）＋ Bugbot 自动 PR 审查（$1–1.5/次）。</p>
+  - elementId: r2-line
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: r3-h
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 生态闭环与适合场景}
+  - elementId: r3-b
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>闭环 <span style="color:$accent"><strong>★★★★★</strong></span>：Composer 2.5 <strong>仅在 Cursor 内可用、无公共 API</strong>，代理调用违反 ToS 即封号。适合需要多 Agent 并行与云端委派的全栈团队——订阅即接入整套模型池与 Agent 网络。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, middle]
+      text: |
+        <p>$20 买的不是模型额度，而是「Composer 模型池＋云端 Agent 网络」的入场券；若拿订阅去烧第三方 API 价模型，等于把 Cursor 用成了转售商。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://www.poster.ly/guides/cursor-guide">poster.ly Cursor 指南</a> · <a href="https://www.digitalapplied.com/blog/cursor-composer-2-5-agent-coding-launch">Digital Applied（Composer 2.5 发布）</a>（2026-08）</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "06 / 24"}

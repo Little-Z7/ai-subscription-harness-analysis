@@ -1,0 +1,159 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 1 · 第一梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · <span style="color:$primaryMid"><strong>第一梯队</strong></span> · 第二梯队 · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: 唯一的无锁定逃生舱：免费开源，代价是失去订阅补贴价
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 工具 MIT 开源永久免费，OpenCode Go $10 只是「模型补给包」——2026.1 后 Claude 订阅在这里已无法使用}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 38]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter"><strong>OpenCode Go</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$gray">sst / anomalyco · 开源终端 Agent 的订阅通道</span></p>
+  - elementId: left-h1
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 订阅档位与价格}
+  - elementId: price-table
+    elementType: table
+    bounds: [48, 204, 300, 130]
+    style: "$default"
+    columnWidths: [0.32, 0.29, 0.39]
+    rowHeights: [26, 26, 26, 26, 26]
+    rows:
+      - [{text: "档位"}, {text: "价格/月"}, {text: "要点"}]
+      - [{text: "工具本体"}, {text: "免费（MIT）"}, {text: "GitHub ~178K stars"}]
+      - [{text: "OpenCode Go"}, {text: "$10（首月$5）"}, {text: "限额 $12/5h·$30/周"}]
+      - [{text: "OpenCode Zen"}, {text: "按量"}, {text: "50+ 模型网关"}]
+      - [{text: "OpenCode Black"}, {text: "$200"}, {text: "首发即售罄"}]
+  - elementId: left-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 独特卖点与短板}
+  - elementId: left-usp
+    elementType: text
+    bounds: [48, 380, 300, 60]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：$0 可长期运行（Zen 免费模型＋本地 Ollama）、无锁定。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：7000+ open issues，实测同任务比 Claude Code 慢 78%。</p>
+  - elementId: r1-h
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 模型能力}
+  - elementId: r1-b
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p><strong>模型中立</strong>：75+ 提供商全接入，per-agent 模型路由——便宜模型跑探索、强模型跑构建，本地 Ollama 零成本。Go 档含 Kimi K3 / GLM-5.2 / Grok 4.5 / DeepSeek V4 / GPT-5.6 Luna，月限额 $60。</p>
+  - elementId: r1-line
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: r2-h
+    elementType: text
+    bounds: [376, 228, 536, 15]
+    content:
+      style: "$h2"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>配套 Harness 工具　<span style="color:$accent">●●●○○</span></p>
+  - elementId: r2-b
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>终端 TUI ＋ VS Code 插件 ＋ headless / GitHub Actions，可进 CI。打磨度不及 Claude Code——7000+ open issues 悬顶，成熟度只能给中评。</p>
+  - elementId: r2-line
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: r3-h
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 生态闭环与适合场景}
+  - elementId: r3-b
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>闭环 <span style="color:$accent"><strong>★☆☆☆☆</strong></span>：四家中唯一无自家模型的玩家，也是闭环趋势的受害者——2026.1 Anthropic 封杀第三方 OAuth 后，<strong>Claude Pro/Max 订阅无法在 opencode 内使用</strong>。适合拒绝锁定、愿意自己折腾模型组合的用户。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, middle]
+      text: |
+        <p>OpenCode 是本组的反例：当你不想被任何「订阅 × 工具」绑定时，它是唯一的逃生舱——代价是再也买不到订阅补贴出来的便宜模型。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://opencode.ai/docs/zen/">OpenCode Zen 官方文档</a> · <a href="https://www.codeagentswarm.com/en/guides/opencode-plans-and-pricing">CodeAgentSwarm 定价指南</a>（2026-08）</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "07 / 24"}
