@@ -1,0 +1,194 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: SUMMARY · 横向对比}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · 第二梯队 · 第三梯队 · 办公Agent · <span style="color:$primaryMid"><strong>总结</strong></span></p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 21
+      wrap: false
+      align: [left, middle]
+      text: 16 款「订阅 × Harness」组合全景对比：闭环最深的组合胜率最高
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", fontSize: 11.5, wrap: false, align: [left, middle], text: 起步价为各产品官方最低付费档（2026-08，促销价以官网当期为准）；办公类 Agent 为独立赛道，见 P22}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: summary-table
+    elementType: table
+    bounds: [48, 122, 864, 340]
+    columnWidths: [0.128, 0.105, 0.168, 0.185, 0.085, 0.082, 0.247]
+    rowHeights: [0.058, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589, 0.0589]
+    style: "$default"
+    rows:
+      - - {text: 订阅产品, fontSize: 9}
+        - {text: 起步价/月, fontSize: 9}
+        - {text: 核心模型, fontSize: 9}
+        - {text: 自家 Harness 工具, fontSize: 9}
+        - {text: 工具成熟度, fontSize: 9}
+        - {text: 生态闭环, fontSize: 9}
+        - {text: 最适合场景, fontSize: 9}
+      - - {text: Cloud Cursor, fontSize: 8.5}
+        - {text: "$20", fontSize: 8.5, align: [right, middle]}
+        - {text: Composer 2.5 + Grok 4.6, fontSize: 8.5}
+        - {text: IDE + CLI + Cloud Agents, fontSize: 8.5}
+        - {text: "●●●●●", fontSize: 8, color: "$accent"}
+        - {text: "★★★★★", fontSize: 8, color: "$primary"}
+        - {text: 主力 IDE、云端并行 Agent, fontSize: 8.5}
+      - - {text: OpenCode Go, fontSize: 8.5}
+        - {text: "$10", fontSize: 8.5, align: [right, middle]}
+        - {text: 模型中立 · 75+ 提供商, fontSize: 8.5}
+        - {text: 终端 TUI + VS Code 插件, fontSize: 8.5}
+        - {text: "●●●○○", fontSize: 8, color: "$accent"}
+        - {text: "★☆☆☆☆", fontSize: 8, color: "$primary"}
+        - {text: 反锁定逃生舱、成本控制, fontSize: 8.5}
+      - - {text: SuperGrok, fontSize: 8.5}
+        - {text: "$30", fontSize: 8.5, align: [right, middle]}
+        - {text: Grok 4.5 / Code Fast 1, fontSize: 8.5}
+        - {text: Grok Build（终端 CLI）, fontSize: 8.5}
+        - {text: "●●○○○", fontSize: 8, color: "$accent"}
+        - {text: "★★★★☆", fontSize: 8, color: "$primary"}
+        - {text: xAI 生态尝鲜、极低价 API, fontSize: 8.5}
+      - - {text: Codex × ChatGPT, fontSize: 8.5}
+        - {text: "$20", fontSize: 8.5, align: [right, middle]}
+        - {text: GPT-5.6 Sol（指数第一）, fontSize: 8.5}
+        - {text: Web + CLI + IDE + GitHub, fontSize: 8.5}
+        - {text: "●●●●●", fontSize: 8, color: "$accent"}
+        - {text: "★★★★★", fontSize: 8, color: "$primary"}
+        - {text: GitHub 团队、全端切换, fontSize: 8.5}
+      - - {text: Kimi × Kimi Code, fontSize: 8.5}
+        - {text: "¥49", fontSize: 8.5, align: [right, middle]}
+        - {text: K3（1M 上下文）, fontSize: 8.5}
+        - {text: Kimi Code CLI + VS Code, fontSize: 8.5}
+        - {text: "●●●●○", fontSize: 8, color: "$accent"}
+        - {text: "★★★★☆", fontSize: 8, color: "$primary"}
+        - {text: 长任务 Agent、大仓库, fontSize: 8.5}
+      - - {text: 智谱 × Z Code, fontSize: 8.5}
+        - {text: "¥94.4", fontSize: 8.5, align: [right, middle]}
+        - {text: GLM-5.3（开源榜第一）, fontSize: 8.5}
+        - {text: Z Code ADE + 20 款白名单, fontSize: 8.5}
+        - {text: "●●●●○", fontSize: 8, color: "$accent"}
+        - {text: "★★★★☆", fontSize: 8, color: "$primary"}
+        - {text: Claude Code 工作流平替, fontSize: 8.5}
+      - - {text: MiniMax, fontSize: 8.5}
+        - {text: "¥49", fontSize: 8.5, align: [right, middle]}
+        - {text: M3（SWE-Pro 59.0%）, fontSize: 8.5}
+        - {text: MiniMax Code + CLI, fontSize: 8.5}
+        - {text: "●●●○○", fontSize: 8, color: "$accent"}
+        - {text: "★★★★☆", fontSize: 8, color: "$primary"}
+        - {text: 全模态统一订阅, fontSize: 8.5}
+      - - {text: DeepSeek API, fontSize: 8.5}
+        - {text: 按量 $0.22 起, fontSize: 8.5, align: [right, middle]}
+        - {text: V4-Flash / Pro（MIT）, fontSize: 8.5}
+        - {text: 无官方 Harness, fontSize: 8.5}
+        - {text: —, fontSize: 8.5, align: [center, middle]}
+        - {text: ☆ 反向, fontSize: 8, color: "$primary"}
+        - {text: 批量推理、自托管燃料, fontSize: 8.5}
+      - - {text: 千问 Token Plan, fontSize: 8.5}
+        - {text: "¥39", fontSize: 8.5, align: [right, middle]}
+        - {text: Qwen3.8-Max / Coder, fontSize: 8.5}
+        - {text: Qwen Code + Qoder 全家桶, fontSize: 8.5}
+        - {text: "●●●○○", fontSize: 8, color: "$accent"}
+        - {text: "★★★☆☆", fontSize: 8, color: "$primary"}
+        - {text: 阿里云生态团队, fontSize: 8.5}
+      - - {text: 火山引擎双 Plan, fontSize: 8.5}
+        - {text: "¥40", fontSize: 8.5, align: [right, middle]}
+        - {text: Doubao-Seed-Code, fontSize: 8.5}
+        - {text: TRAE（联调 78.8% 登顶）, fontSize: 8.5}
+        - {text: "●●●●○", fontSize: 8, color: "$accent"}
+        - {text: "★★★★★", fontSize: 8, color: "$primary"}
+        - {text: 国产模型一站聚合, fontSize: 8.5}
+      - - {text: Gemini AI Pro, fontSize: 8.5}
+        - {text: "$19.99", fontSize: 8.5, align: [right, middle]}
+        - {text: Gemini 3.1 Pro, fontSize: 8.5}
+        - {text: CLI + Antigravity + Jules, fontSize: 8.5}
+        - {text: "●●●●○", fontSize: 8, color: "$accent"}
+        - {text: "★★★★☆", fontSize: 8, color: "$primary"}
+        - {text: Google 生态用户, fontSize: 8.5}
+      - - {text: Command Code, fontSize: 8.5}
+        - {text: "$1", fontSize: 8.5, align: [right, middle]}
+        - {text: taste-1 风格学习, fontSize: 8.5}
+        - {text: 纯终端 CLI, fontSize: 8.5}
+        - {text: "●○○○○", fontSize: 8, color: "$accent"}
+        - {text: "★★☆☆☆", fontSize: 8, color: "$primary"}
+        - {text: 个人编码风格一致性, fontSize: 8.5}
+      - - {text: 商汤 Token Plan, fontSize: 8.5}
+        - {text: 公测免费, fontSize: 8.5, align: [right, middle]}
+        - {text: SenseNova U1 Pro, fontSize: 8.5}
+        - {text: 小浣熊 Raccoon 插件, fontSize: 8.5}
+        - {text: "●●○○○", fontSize: 8, color: "$accent"}
+        - {text: "★★★☆☆", fontSize: 8, color: "$primary"}
+        - {text: 政企私有化、多模态办公, fontSize: 8.5}
+      - - {text: 阶跃 Step Plan, fontSize: 8.5}
+        - {text: "¥49", fontSize: 8.5, align: [right, middle]}
+        - {text: Step 3.5 Flash, fontSize: 8.5}
+        - {text: 不绑工具（兼容主流）, fontSize: 8.5}
+        - {text: "●●○○○", fontSize: 8, color: "$accent"}
+        - {text: "★★☆☆☆", fontSize: 8, color: "$primary"}
+        - {text: 高频 Agent 性价比之王, fontSize: 8.5}
+      - - {text: 小米 MiMo, fontSize: 8.5}
+        - {text: "¥39 不限窗", fontSize: 8.5, align: [right, middle]}
+        - {text: MiMo-V2.5-Pro（MIT）, fontSize: 8.5}
+        - {text: 无专属 Harness, fontSize: 8.5}
+        - {text: "●●○○○", fontSize: 8, color: "$accent"}
+        - {text: "★★☆☆☆", fontSize: 8, color: "$primary"}
+        - {text: 碎片化使用、自建 Agent, fontSize: 8.5}
+      - - {text: Ollama Pro, fontSize: 8.5}
+        - {text: "$20", fontSize: 8.5, align: [right, middle]}
+        - {text: 开源权重模型池, fontSize: 8.5}
+        - {text: 本地+云端一体 CLI, fontSize: 8.5}
+        - {text: "●●●○○", fontSize: 8, color: "$accent"}
+        - {text: "★★☆☆☆", fontSize: 8, color: "$primary"}
+        - {text: 隐私主权、本地部署, fontSize: 8.5}
+  - elementId: insight-bar
+    elementType: shape
+    bounds: [48, 474, 4, 24]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: insight-text
+    elementType: text
+    bounds: [64, 472, 848, 28]
+    content:
+      style: "$small"
+      fontSize: 9.5
+      align: [left, middle]
+      text: |
+        <p><strong>读表结论</strong>：工具成熟度与生态闭环双高的组合（Cursor、Codex、火山×TRAE、Kimi）集中在第一梯队与国产头部；第三梯队主动用「低闭环」换取价格与自主权。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: 各厂商官网及定价追踪页（2026-08）；评级为本报告基于公开信息的分析判断</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "23 / 24"}
