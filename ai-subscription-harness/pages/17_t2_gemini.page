@@ -1,0 +1,177 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 2 · 第二梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · <span style="color:$primaryMid"><strong>第二梯队</strong></span> · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      wrap: false
+      align: [left, middle]
+      text: Google 用免费 CLI 引流，用 Ultra 档收网
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 五档订阅按「计算量」代币池计费——编程额度只是钩子，2TB 存储与 YouTube 才是锁链}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 40]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter,MiSans"><strong>Gemini AI Pro</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$faint">Google · 订阅 + CLI / Antigravity / Jules</span></p>
+  - elementId: plan-h2
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, text: 订阅档位与价格}
+  - elementId: plan-table
+    elementType: table
+    bounds: [48, 204, 300, 140]
+    columnWidths: [0.26, 0.24, 0.50]
+    rowHeights: [0.16, 0.168, 0.168, 0.168, 0.168, 0.168]
+    style: "$default"
+    rows:
+      - - text: 档位
+        - text: 价格
+        - text: 要点
+      - - text: Free
+        - text: $0
+        - text: CLI 免费额度慷慨
+      - - text: AI Plus
+        - text: $7.99/月
+        - text: 入门档
+      - - text: AI Pro
+        - text: $19.99/月
+        - text: 3.1 Pro·Jules·2TB·YT Lite
+      - - text: AI Ultra
+        - text: $99.99/月
+        - text: 5× 额度·Antigravity 优先
+      - - text: AI Ultra 20x
+        - text: $200/月
+        - text: Deep Think·实验功能
+  - elementId: pros-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, text: 独特卖点与短板}
+  - elementId: pros-body
+    elementType: text
+    bounds: [48, 380, 300, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：打包 2TB 存储 + YouTube Premium，免费编程额度最慷慨。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：国内支付门槛高，Antigravity 稳定性被吐槽。</p>
+  - elementId: model-h2
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, text: 模型能力}
+  - elementId: model-body
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>Gemini 3.1 Pro：GPQA Diamond <strong>91.9%</strong>、1M 上下文；编程略逊 Claude Opus，速度与超长上下文领先。3.5 Pro / Flash 为 Ultra 档独占，Deep Think 锁最高档——档位决定模型天花板。</p>
+  - elementId: sep1
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: harness-h2
+    elementType: text
+    bounds: [376, 228, 200, 15]
+    content: {style: "$h2", wrap: false, text: 配套 Harness 工具}
+  - elementId: harness-rate
+    elementType: text
+    bounds: [560, 228, 352, 15]
+    content:
+      fontSize: 11
+      bold: true
+      color: "$accent"
+      wrap: false
+      align: [right, middle]
+      text: 成熟度 ●●●●○
+  - elementId: harness-body
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      fontSize: 10.5
+      align: [left, top]
+      text: |
+        <p>Gemini CLI（开源，<strong>免费账号额度慷慨</strong>——免费 Harness 给订阅漏斗引流）+ Antigravity（Agent-first IDE，优先访问权锁 Ultra 档）+ Jules（异步编程 Agent，付费配额含在 Pro/Ultra 内）。</p>
+  - elementId: sep2
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: loop-h2
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, text: 生态闭环与适合场景}
+  - elementId: loop-body
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>漏斗式闭环：免费 CLI 尝甜头 → Pro 档拿全工具配额 → Ultra 档解锁 Antigravity 优先权与 Deep Think。适合：已深度使用 Google 生态、能搞定海外支付的国际开发者。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>免费 CLI 引流、Ultra 档收网——订阅里塞满 2TB 存储和 YouTube，不是为了划算，是为了让你离不开整个 Google 生态。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://www.yotradellc.com/blog/google-ai-pro-ultra-overseas-subscription-2026-guide">Google AI 订阅指南（Yotrade）</a> · <a href="https://www.sohu.com/a/1024911847_122014422">搜狐科技</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "17 / 24"}

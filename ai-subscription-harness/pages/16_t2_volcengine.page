@@ -1,0 +1,171 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 2 · 第二梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · <span style="color:$primaryMid"><strong>第二梯队</strong></span> · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      wrap: false
+      align: [left, middle]
+      text: Doubao 登顶 SOTA 的 78.8%，只在 TRAE 里生效
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: Coding Plan 聚合国产全系模型 + 业界首个 Agent 套餐包，首两月 2.5 折 ¥9.9 起（至 2026-11-08）}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 40]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter,MiSans"><strong>火山引擎 Coding/Agent Plan</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$faint">字节跳动 · 套餐 + TRAE（AI IDE）</span></p>
+  - elementId: plan-h2
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, text: 订阅档位与价格}
+  - elementId: plan-table
+    elementType: table
+    bounds: [48, 204, 300, 140]
+    columnWidths: [0.30, 0.26, 0.44]
+    rowHeights: [0.22, 0.26, 0.26, 0.26]
+    style: "$default"
+    rows:
+      - - text: 套餐
+        - text: 价格
+        - text: 要点
+      - - text: Coding Plan Lite
+        - text: ¥40/月
+        - text: 首两月 ¥9.9（2.5 折）
+      - - text: Coding Plan Pro
+        - text: ¥200/月
+        - text: 首两月 ¥49.9
+      - - text: Agent Plan
+        - text: ¥40–1,000
+        - text: Small–Max·AFP 燃料值
+  - elementId: pros-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, text: 独特卖点与短板}
+  - elementId: pros-body
+    elementType: text
+    bounds: [48, 380, 300, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：一站聚合国产全系模型 + 多模态 Agent；Agent Plan Medium 实测约 2 亿 token、单百万约 ¥1。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：限量秒杀、四层限额规则复杂，Doubao 模型无独立订阅。</p>
+  - elementId: model-h2
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, text: 模型能力}
+  - elementId: model-body
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>Doubao-Seed-Code：256K 上下文，国内首个支持视觉理解的编程模型，综合成本降 62.7%；与 TRAE 深度联调后 SWE-Bench Verified <strong>78.80% 登顶 SOTA</strong>——该分数仅在 TRAE 内达成。</p>
+  - elementId: sep1
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: harness-h2
+    elementType: text
+    bounds: [376, 228, 200, 15]
+    content: {style: "$h2", wrap: false, text: 配套 Harness 工具}
+  - elementId: harness-rate
+    elementType: text
+    bounds: [560, 228, 352, 15]
+    content:
+      fontSize: 11
+      bold: true
+      color: "$accent"
+      wrap: false
+      align: [right, middle]
+      text: 成熟度 ●●●●○
+  - elementId: harness-body
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      fontSize: 10.5
+      align: [left, top]
+      text: |
+        <p>TRAE（字节 AI IDE，VS Code fork）：豆包编程能力<strong>不单独售卖</strong>，只经 Coding Plan 与 TRAE 提供；TRAE 国际版独立订阅 $3–100/月，国内版免费引流。套餐覆盖 Doubao-Seed-Code、GLM-5.3、Kimi-K3、MiniMax-M3、DeepSeek-V4 + Auto 智能调度。</p>
+  - elementId: sep2
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: loop-h2
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, text: 生态闭环与适合场景}
+  - elementId: loop-body
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>国内模型覆盖面最广的聚合入口 + 自家 IDE 深度联调，双向锁定。适合：想一站用遍国产全系模型、重度依赖 IDE 内 Agent 的团队；抢不到限量、受不了四层限额规则的需谨慎。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>「模型+工具联调登顶 SOTA」的官方样板——78.8% 这个分数只存在于 TRAE 里：买 Coding Plan，本质是为这份联调优化付费。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://www.volcengine.com/docs/82379/2366394">火山引擎官方文档</a> · <a href="https://tech.chinadaily.com.cn/a/202511/12/WS691441b2a310942cc499118b.html">中国日报（TRAE×Doubao）</a>，2026-08（折扣至 2026-11-08）</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "16 / 24"}
