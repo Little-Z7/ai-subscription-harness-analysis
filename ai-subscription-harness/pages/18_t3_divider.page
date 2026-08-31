@@ -1,0 +1,65 @@
+pageType: chapter
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · 第二梯队 · <span style="color:$primaryMid"><strong>第三梯队</strong></span> · 办公Agent · 总结</p>
+  - elementId: chap-bignum
+    elementType: text
+    bounds: [48, 108, 300, 130]
+    content:
+      fontFamily: {latin: "Oranienbaum", ea: "思源宋体"}
+      fontSize: 108
+      bold: true
+      color: "$tint"
+      wrap: false
+      align: [left, middle]
+      text: "04"
+  - elementId: chap-kicker
+    elementType: text
+    bounds: [52, 246, 400, 15]
+    content: {style: "$kicker", wrap: false, text: TIER 3 · 新兴 / 垂直 / 轻量玩家}
+  - elementId: chap-title
+    elementType: text
+    bounds: [48, 268, 720, 48]
+    content:
+      style: "$pageTitle"
+      fontSize: 34
+      wrap: false
+      align: [left, middle]
+      text: 第三梯队
+  - elementId: chap-sub
+    elementType: text
+    bounds: [48, 324, 720, 20]
+    content:
+      style: "$pageSub"
+      fontSize: 13
+      wrap: false
+      text: 新兴、垂直、轻量——以单点长板立足：极致价格、开源生态、本地隐私
+  - elementId: chap-bar
+    elementType: shape
+    bounds: [48, 362, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: chap-list
+    elementType: text
+    bounds: [48, 390, 820, 90]
+    content:
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      align: [left, top]
+      text: |
+        <p><span style="font-size:12px; color:$primary"><strong>19</strong></span><span style="font-size:12px; color:$ink"><strong>　Command Code</strong></span><span style="font-size:10px; color:$gray">　$1/月的终端编程 Agent，赌「风格记忆」这块垂直长板</span></p>
+        <p style="margin-top:9px"><span style="font-size:12px; color:$primary"><strong>20</strong></span><span style="font-size:12px; color:$ink"><strong>　商汤 Token Plan × 阶跃 Step Plan</strong></span><span style="font-size:10px; color:$gray">　免费公测与半价额度，国产性价比打法先把 Harness 圈进来</span></p>
+        <p style="margin-top:9px"><span style="font-size:12px; color:$primary"><strong>21</strong></span><span style="font-size:12px; color:$ink"><strong>　小米 MiMo × Ollama Pro</strong></span><span style="font-size:10px; color:$gray">　开源生态入口与本地隐私主权，轻量订阅卖的都是自主权</span></p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "18 / 24"}

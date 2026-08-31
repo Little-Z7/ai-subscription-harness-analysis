@@ -1,0 +1,168 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 3 · 第三梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · 第二梯队 · <span style="color:$primaryMid"><strong>第三梯队</strong></span> · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: Command Code 用 $1 定价下注：「风格记忆」要做新的闭环入口
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 勿与 Anthropic Claude Code 混淆——GitHub 联合创始人领投的新兴终端 Agent，模型无关、风格档案存本地}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 40]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter"><strong>Command Code</strong></span></p>
+        <p style="margin-top:3px"><span style="font-size:9px; color:$gray">CommandCodeAI（前身 Langbase）· 新兴终端编程 Agent</span></p>
+  - elementId: price-h2
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, text: 订阅档位与价格}
+  - elementId: price-table
+    elementType: table
+    bounds: [48, 204, 300, 140]
+    columnWidths: [0.24, 0.24, 0.52]
+    rowHeights: [0.16, 0.21, 0.21, 0.21, 0.21]
+    style: "$default"
+    rows:
+      - - text: 档位
+        - text: 价格
+        - text: 要点
+      - - text: Go
+        - text: $1/月
+        - text: 含 $10 API 额度，仅开源模型
+      - - text: Pro
+        - text: $15/月
+        - text: 解锁 Claude / GPT-5
+      - - text: Max
+        - text: $100/月
+        - text: 用量再放大
+      - - text: Ultra
+        - text: $200/月
+        - text: 最高用量档
+  - elementId: usp-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, text: 独特卖点与短板}
+  - elementId: usp-body
+    elementType: text
+    bounds: [48, 380, 300, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：taste-1 持续学习你的编码风格，风格档案存本地 .commandcode/taste/。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：初期 bug 多（粘贴崩溃、VS Code 失效），社区薄弱。</p>
+  - elementId: model-h2
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, text: 模型能力}
+  - elementId: model-body
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>自研 <strong>taste-1 神经符号模型</strong>，持续学习用户编码风格（接受 / 拒绝 / 修改记录），风格档案落在本地 <strong>.commandcode/taste/taste.md</strong>；同时模型无关——Claude、GPT、Gemini、Grok、DeepSeek、Qwen、Kimi、GLM、MiniMax 全接入，支持 BYOK。</p>
+  - elementId: div1
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: harness-h2
+    elementType: text
+    bounds: [376, 228, 536, 15]
+    content:
+      style: "$h2"
+      wrap: false
+      text: |
+        <p>配套 Harness 工具　<span style="color:$accent">●○○○○</span><span style="font-size:9px; color:$faint">　成熟度：发布初期</span></p>
+  - elementId: harness-body
+    elementType: text
+    bounds: [376, 248, 536, 56]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p><strong>纯终端 CLI，无 GUI</strong>；2026 年 5 月才发布，粘贴崩溃、VS Code 集成失效等 bug 密集，社区生态薄弱——它的 Harness 本身仍是半成品，工具这一课还没补完。</p>
+  - elementId: div2
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: loop-h2
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, text: 生态闭环与适合场景}
+  - elementId: loop-body
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>GitHub 联合创始人 <strong>Tom Preston-Werner 领投 $5M 种子轮</strong>，出身光鲜但闭环未成形。适合 Vim / SSH / CI 环境、追求风格一致性的个人开发者尝鲜；不适合作为团队主力采购。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", fontFamily: {latin: "Liter", ea: "MiSans"}, wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, middle]
+      wrap: false
+      text: $1 的定价不是促销而是宣言——它赌「风格记忆」这块垂直长板，能在巨头闭环之外长出新的订阅理由。
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://techstackups.com/comparisons/coding-agent-harness-comparison-2026/">TechStackUps 编程 Agent Harness 对比</a> · <a href="https://omnitools.ai/tool/tool_mpcdk5iod0e8b856abe14b18">OmniTools 工具档案</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "19 / 24"}
