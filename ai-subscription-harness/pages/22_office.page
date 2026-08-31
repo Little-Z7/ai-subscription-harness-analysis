@@ -1,0 +1,128 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: OFFICE AGENTS · 独立赛道}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · 第二梯队 · 第三梯队 · <span style="color:$primaryMid"><strong>办公Agent</strong></span> · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: 办公 Agent 是另一条赛道：交付 PPT 和纪要，不是 PR
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 与编程 Harness 的计费、入口、生态逻辑完全不同——按你所在的 IM 生态站队即可}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: office-table
+    elementType: table
+    bounds: [48, 128, 864, 236]
+    columnWidths: [0.13, 0.12, 0.2, 0.28, 0.15, 0.12]
+    rowHeights: [0.11, 0.178, 0.178, 0.178, 0.178, 0.178]
+    style: "$default"
+    rows:
+      - - {text: 产品, fontSize: 9}
+        - {text: 背后平台, fontSize: 9}
+        - {text: 价格, fontSize: 9}
+        - {text: 核心能力, fontSize: 9}
+        - {text: 生态闭环, fontSize: 9}
+        - {text: 适合人群, fontSize: 9}
+      - - {text: 腾讯 WorkBuddy, fontSize: 9}
+        - {text: 微信 / 企微 + 腾讯文档, fontSize: 9}
+        - {text: 个人 ¥99-999/月（连包 ¥70 起）；企业旗舰 ¥198/人/月, fontSize: 9}
+        - {text: 本地执行，Ask / Craft / Plan 三模式，20+ Skills，微信 / 企微远程指令；DAU 破 1300 万，桌面办公第一, fontSize: 9}
+        - {text: 高：One ID 打通腾讯文档 / 网盘 / 乐享 / 会议, fontSize: 9}
+        - {text: 微信生态团队, fontSize: 9}
+      - - {text: 字节豆包工作, fontSize: 9}
+        - {text: 飞书, fontSize: 9}
+        - {text: "个人 ¥68-500/月；飞书席位年付 ¥1,188-5,488/席/年", fontSize: 9}
+        - {text: Seedream 5.0 生图 + Seedance 2.5 视频，多模态弹药最强；飞书文档 / 会议原生集成, fontSize: 9}
+        - {text: 高：飞书全家桶, fontSize: 9}
+        - {text: 飞书组织, fontSize: 9}
+      - - {text: 阿里千问办公 QwenWork, fontSize: 9}
+        - {text: 钉钉, fontSize: 9}
+        - {text: 个人 ¥98-198/月（活动 ¥78 起）；企业 ¥198/席/月, fontSize: 9}
+        - {text: 交付可编辑 PPT / Word / Excel / 全栈网页；打通钉钉 25 项企业能力（2600 万组织）, fontSize: 9}
+        - {text: 高：钉钉 + 百炼计费, fontSize: 9}
+        - {text: 钉钉组织, fontSize: 9}
+      - - {text: 钉钉 AI / 飞书 AI / 企微 AI, fontSize: 9}
+        - {text: 各 IM 平台, fontSize: 9}
+        - {text: "AI 表格 ¥18-35/人/月；飞书点数池 ¥9,900/年起；企微基础免费", fontSize: 9}
+        - {text: 平台内置协同 AI（审批 / 纪要 / 知识问答），Agent 能力由上面三家承载, fontSize: 9}
+        - {text: 中, fontSize: 9}
+        - {text: 已采购对应 IM 的企业, fontSize: 9}
+      - - {text: WPS AI / 灵犀, fontSize: 9}
+        - {text: WPS 文档体系, fontSize: 9}
+        - {text: WPS AI 会员 ¥248/年；灵犀专业版 ¥50-500/月, fontSize: 9}
+        - {text: 文档智能基本盘；灵犀为独立 Agent，2026-08 起与客户端分离单独收费, fontSize: 9}
+        - {text: 中, fontSize: 9}
+        - {text: 文档重度用户, fontSize: 9}
+  - elementId: read-h2
+    elementType: text
+    bounds: [48, 376, 864, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 三点解读：计费、焦点与选型}
+  - elementId: read-body
+    elementType: text
+    bounds: [48, 394, 864, 44]
+    content:
+      style: "$small"
+      fontSize: 10
+      align: [left, top]
+      text: |
+        <p><strong>① 计费逻辑</strong>：编程类 = 订阅 / Token + 5h 窗口；办公类 = 积分制或席位年费 + 点数池，两套账本互不通用。</p>
+        <p style="margin-top:4px"><strong>② 竞争焦点</strong>：2026 年 7-8 月腾讯 / 字节 / 阿里密集整合上线，从「能聊」转向「交付成品 + 组织数据打通」。<strong>③ 选型</strong>：办公 Agent 没有跨生态赢家，按组织所在 IM 站队。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", fontFamily: {latin: "Liter", ea: "MiSans"}, wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, middle]
+      wrap: false
+      text: 办公赛道的「Harness」就是 IM 本身——订阅买的不是模型额度，是组织数据的通行证。
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://finance.eastmoney.com/a/202607273821983624.html">东方财富</a> · <a href="https://www.feishu.cn/service/ai">飞书 AI 服务页</a> · <a href="https://www.ebrun.com/20260727/690459.shtml">亿邦动力</a> · <a href="https://ai-wz.com/wpsai">WPS AI 价格</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "22 / 24"}
