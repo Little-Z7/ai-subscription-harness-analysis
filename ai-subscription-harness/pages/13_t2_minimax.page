@@ -1,0 +1,171 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 2 · 第二梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · <span style="color:$primaryMid"><strong>第二梯队</strong></span> · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      wrap: false
+      align: [left, middle]
+      text: 在自家工具里，MiniMax 订阅是免配 Key 的默认电源
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: Coding Plan 升级 Token Plan——唯一覆盖文本/图像/语音/音乐/视频全模态的统一订阅}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 40]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter,MiSans"><strong>MiniMax Token Plan</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$faint">MiniMax · 全模态订阅 + MiniMax Code / CLI</span></p>
+  - elementId: plan-h2
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, text: 订阅档位与价格}
+  - elementId: plan-table
+    elementType: table
+    bounds: [48, 204, 300, 140]
+    columnWidths: [0.22, 0.28, 0.50]
+    rowHeights: [0.22, 0.26, 0.26, 0.26]
+    style: "$default"
+    rows:
+      - - text: 档位
+        - text: 价格
+        - text: 要点
+      - - text: Plus
+        - text: ¥49/月
+        - text: 入门额度
+      - - text: Max
+        - text: ¥119/月
+        - text: 主力开发
+      - - text: Ultra
+        - text: ¥469/月
+        - text: 重度全模态·包年 ×10
+  - elementId: pros-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, text: 独特卖点与短板}
+  - elementId: pros-body
+    elementType: text
+    bounds: [48, 380, 300, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：唯一全模态统一订阅 + M3 极致性价比。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：高峰动态限流（工作日 15:00–17:30），编程工具生态深度不及 Claude Code / Kimi Code。</p>
+  - elementId: model-h2
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, text: 模型能力}
+  - elementId: model-body
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>MiniMax M3（2026-06 开源）：1M 上下文，SWE-Bench Pro <strong>59.0%</strong> 超 GPT-5.5、BrowseComp <strong>83.5</strong> 超 Opus 4.7；API 仅 <strong>$0.60 / $2.40</strong> 每百万 token，国际同档极低价。</p>
+  - elementId: sep1
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: harness-h2
+    elementType: text
+    bounds: [376, 228, 200, 15]
+    content: {style: "$h2", wrap: false, text: 配套 Harness 工具}
+  - elementId: harness-rate
+    elementType: text
+    bounds: [560, 228, 352, 15]
+    content:
+      fontSize: 11
+      bold: true
+      color: "$accent"
+      wrap: false
+      align: [right, middle]
+      text: 成熟度 ●●●○○
+  - elementId: harness-body
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      fontSize: 10.5
+      align: [left, top]
+      text: |
+        <p>MiniMax Code（桌面 + 网页）与 M3 联合训练，Agent Team 多阶段并发 Workflow；另有 MiniMax CLI。桌面/网页版<strong>直接扣 Token Plan 额度、免配 API Key</strong>；兼容 Claude Code、Codex CLI、Cursor、TRAE 等 10+ 工具。</p>
+  - elementId: sep2
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: loop-h2
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, text: 生态闭环与适合场景}
+  - elementId: loop-body
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>零配置闭环：自家工具内订阅即插即用，出了自家工具就得手动接 API。适合：全模态应用开发者、追求极致性价比的编程团队；在意高峰稳定性的重度用户需避开限流时段。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>免配 Key 的零配置闭环——在自家工具里订阅即插即用，出了自家工具就得手动接 API：这份便利性本身，就是它圈住你的围墙。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://platform.minimaxi.com/subscribe/token-plan">MiniMax Token Plan 官方页</a> · <a href="https://www.tmtpost.com/8010291.html">钛媒体</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "13 / 24"}

@@ -1,0 +1,171 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 2 · 第二梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · <span style="color:$primaryMid"><strong>第二梯队</strong></span> · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      wrap: false
+      align: [left, middle]
+      text: 智谱把「订阅锁工具」写成了明文条款
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 积分制改版后涨价 130%–261%，仍是国内直连 Claude Code 工作流的主流平替通道}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 40]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter,MiSans"><strong>GLM Coding Plan</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$faint">智谱 AI · 编程套餐 + 自研 Z Code</span></p>
+  - elementId: plan-h2
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, text: 订阅档位与价格}
+  - elementId: plan-table
+    elementType: table
+    bounds: [48, 204, 300, 140]
+    columnWidths: [0.18, 0.42, 0.40]
+    rowHeights: [0.22, 0.26, 0.26, 0.26]
+    style: "$default"
+    rows:
+      - - text: 档位
+        - text: 价格（现售价）
+        - text: 5h 积分
+      - - text: Lite
+        - text: ¥118/月（¥94.4）
+        - text: 2,000
+      - - text: Pro
+        - text: ¥538/月（¥430.4）
+        - text: 12,000
+      - - text: Max
+        - text: ¥1,078/月（¥862.4）
+        - text: 28,000·新模型首发
+  - elementId: pros-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, text: 独特卖点与短板}
+  - elementId: pros-body
+    elementType: text
+    bounds: [48, 380, 300, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：国内直连使用 Claude Code 工作流，「1/3 成本 3 倍用量」的 Claude 平替；非高峰 50% 抵扣。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：涨价后性价比争议大，GLM-5.3 权重未开源。</p>
+  - elementId: model-h2
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, text: 模型能力}
+  - elementId: model-body
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>GLM-5.3（2026-08 全量）：Terminal-Bench 3.0 开源第一、DeepSWE 66.9，编程较 5.2 提升 50%；GLM-5.2 支持 1M 上下文，居 LMArena 代码榜开源第一。新模型按 <strong>Max→Pro→Lite</strong> 顺序放量——档位决定尝鲜速度。</p>
+  - elementId: sep1
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: harness-h2
+    elementType: text
+    bounds: [376, 228, 200, 15]
+    content: {style: "$h2", wrap: false, text: 配套 Harness 工具}
+  - elementId: harness-rate
+    elementType: text
+    bounds: [560, 228, 352, 15]
+    content:
+      fontSize: 11
+      bold: true
+      color: "$accent"
+      wrap: false
+      align: [right, middle]
+      text: 成熟度 ●●●○○
+  - elementId: harness-body
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      fontSize: 10.5
+      align: [left, top]
+      text: |
+        <p>Z Code：自研桌面 ADE，与 GLM-5.2/5-turbo 深度联调，桌面 + 手机 Remote + 飞书/微信 Bot 多端协同；套餐同时官方支持 Claude Code、Cursor、Cline、Roo Code、OpenCode 等 20+ 工具。</p>
+  - elementId: sep2
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: loop-h2
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, text: 生态闭环与适合场景}
+  - elementId: loop-body
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>全场最典型的「订阅锁工具」：额度<strong>仅限白名单工具内使用</strong>，违规触发风控。适合：想要 Claude Code 工作流、又需要国内直连并把成本压到 1/3 的团队与个人开发者。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>白名单制是国产套餐里最诚实的闭环：你买的不是 GLM 模型本身，而是 20+ 款官方指定工具里的 GLM 通道——条款写死了，也就不必猜。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://docs.bigmodel.cn/cn/coding-plan/overview">智谱 Coding Plan 官方文档</a> · <a href="https://codingplan.org/plans/zhipu">CodingPlan 观测站（智谱）</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "12 / 24"}
