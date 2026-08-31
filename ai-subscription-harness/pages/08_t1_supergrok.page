@@ -1,0 +1,159 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 1 · 第一梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · <span style="color:$primaryMid"><strong>第一梯队</strong></span> · 第二梯队 · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: Grok Build 绑死订阅：模型低价铺路，订阅收网
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: SuperGrok $30 起步才解锁 Grok Build，Heavy $300（前 3 月促销 $99）再送 Cursor Ultra——低价 API 铺路、订阅收网}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 38]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter"><strong>SuperGrok</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$gray">xAI · 订阅用户专享 Grok Build 编程入口</span></p>
+  - elementId: left-h1
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 订阅档位与价格}
+  - elementId: price-table
+    elementType: table
+    bounds: [48, 204, 300, 130]
+    style: "$default"
+    columnWidths: [0.33, 0.32, 0.35]
+    rowHeights: [26, 26, 26, 26, 26]
+    rows:
+      - [{text: "档位"}, {text: "价格/月"}, {text: "要点"}]
+      - [{text: "SuperGrok Lite"}, {text: "$10"}, {text: "轻量体验"}]
+      - [{text: "SuperGrok"}, {text: "$30（$300/年）"}, {text: "含 Grok Build Beta"}]
+      - [{text: "Heavy"}, {text: "$300"}, {text: "送 Cursor Ultra 等"}]
+      - [{text: "X Premium+"}, {text: "$40"}, {text: "社交平台会员"}]
+  - elementId: left-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 独特卖点与短板}
+  - elementId: left-usp
+    elementType: text
+    bounds: [48, 380, 300, 60]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：API 价格极低（$0.20/$1.50 每百万）；worktree 并行架构独特。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：编程能力落后 Claude/GPT 半个身位；完整编程入口最贵（$300/月起）。</p>
+  - elementId: r1-h
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 模型能力}
+  - elementId: r1-b
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p><strong>grok-code-fast-1</strong>：SWE-Bench Verified 70.8%，API 仅 $0.20/$1.50 每百万；<strong>Grok 4.5</strong> Terminal-Bench 83.3%，定位接近 Opus 但价格是零头；Grok 4 Heavy 多 Agent、AIME 近满分。订阅不含 API 额度。</p>
+  - elementId: r1-line
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: r2-h
+    elementType: text
+    bounds: [376, 228, 536, 15]
+    content:
+      style: "$h2"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>配套 Harness 工具　<span style="color:$accent">●●●○○</span></p>
+  - elementId: r2-b
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p><strong>Grok Build</strong>（终端 CLI，2026.5 beta）：plan mode、8 个并行子 Agent 各占独立 git worktree、Arena 多模型对比、2M 上下文。仅终端无 IDE（VS Code 插件规划中）；最初仅 Heavy 可用，后下放 SuperGrok。</p>
+  - elementId: r2-line
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: r3-h
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 生态闭环与适合场景}
+  - elementId: r3-b
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>闭环 <span style="color:$accent"><strong>★★★★☆</strong></span>：Grok Build 只跑自家模型且必须订阅；但呈「联盟式闭环」——Heavy 送 Cursor Ultra，grok-code-fast-1 反向铺进 Copilot / Cursor / opencode 抢份额。适合追求极致性价比的终端流重度用户。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, middle]
+      text: |
+        <p>xAI 的打法是「模型低价铺路、订阅收网」：想要 Grok Build 的 8 路并行 Agent 体验，必须先跨过 SuperGrok 门槛——模型可以贱卖，入口绝不免费。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://aibusinessweekly.net/p/grok-ai-pricing">AI Business Weekly（Grok 定价）</a> · <a href="https://www.oflight.co.jp/en/columns/grok-build-xai-cli-coding-agent-2026-06">Oflight（Grok Build 评测）</a>（2026-08）</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "08 / 24"}

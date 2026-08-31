@@ -1,0 +1,160 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 1 · 第一梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · <span style="color:$primaryMid"><strong>第一梯队</strong></span> · 第二梯队 · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: Codex 没有独立售价：ChatGPT 会员本身就是门票
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 四家中最彻底的「订阅即入口」——从免费档到 Pro，每一档 ChatGPT 会员都内置 Codex}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 38]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter"><strong>Codex × ChatGPT</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$gray">OpenAI · 无独立 SKU，捆绑在每一档会员里</span></p>
+  - elementId: left-h1
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 订阅档位与价格}
+  - elementId: price-table
+    elementType: table
+    bounds: [48, 204, 300, 144]
+    style: "$default"
+    columnWidths: [0.23, 0.25, 0.52]
+    rowHeights: [24, 24, 24, 24, 24, 24]
+    rows:
+      - [{text: "档位"}, {text: "价格/月"}, {text: "要点"}]
+      - [{text: "Free"}, {text: "$0"}, {text: "可体验 Codex"}]
+      - [{text: "Go"}, {text: "$8"}, {text: "轻量额度"}]
+      - [{text: "Plus"}, {text: "$20"}, {text: "全端＋GPT-5.6 全家桶"}]
+      - [{text: "Pro"}, {text: "$100–200"}, {text: "高额度"}]
+      - [{text: "Business"}, {text: "$25/席"}, {text: "团队协作"}]
+  - elementId: left-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 独特卖点与短板}
+  - elementId: left-usp
+    elementType: text
+    bounds: [48, 380, 300, 60]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：全球最强编程模型＋全端覆盖＋免费档可体验。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：双轨限额（5 小时窗＋周上限）不透明；中国大陆支付摩擦大。</p>
+  - elementId: r1-h
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 模型能力}
+  - elementId: r1-b
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p><strong>GPT-5.6 Sol</strong>：Coding Agent Index 80 分全球第一（在 Codex harness 中测得）；Terra $2/$12、Luna $0.20/$1.20 每百万，全系 1.05M 上下文。跑分即在自家工具内取得——模型与 harness 联合优化的样板。</p>
+  - elementId: r1-line
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: r2-h
+    elementType: text
+    bounds: [376, 228, 536, 15]
+    content:
+      style: "$h2"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>配套 Harness 工具　<span style="color:$accent">●●●●●</span></p>
+  - elementId: r2-b
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>覆盖面业界最广：Web 云任务＋开源 Codex CLI＋IDE 插件（JetBrains / Xcode 官方嵌入）＋iOS＋GitHub @Codex PR 委派与自动 review＋Slack。本地与云端共享同一额度池。</p>
+  - elementId: r2-line
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: r3-h
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, align: [left, middle], text: 生态闭环与适合场景}
+  - elementId: r3-b
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>闭环 <span style="color:$accent"><strong>★★★★★</strong></span>：订阅与工具焊死，「Sign in with ChatGPT」OAuth 仅授权自家客户端与官方合作伙伴；但对第三方 harness 公开欢迎——软闭环，与 Anthropic 的封堵策略分化。适合要最强交付能力、全端随行的团队。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, middle]
+      text: |
+        <p>OpenAI 把「订阅即工具入口」做到极致：你甚至无法单独购买 Codex——这份会员费本质上就是 Codex 的门票，模型与工具打包一次卖给你。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://www.morphllm.com/codex-pricing">Morph（Codex 定价）</a> · <a href="https://codersera.com/blog/gpt-5-6-sol-terra-luna/">Codersera（GPT-5.6 系列）</a>（2026-08）</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "09 / 24"}
