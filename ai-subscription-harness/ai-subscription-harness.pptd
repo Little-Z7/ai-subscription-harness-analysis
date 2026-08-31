@@ -1,0 +1,100 @@
+version: v2
+title: AI订阅与Harness工具生态对比分析
+size: [960, 540]
+theme:
+  colors:
+    primary: "#1C3D5A"
+    primaryMid: "#3E6486"
+    primarySoft: "#7A99B5"
+    tint: "#EDF2F7"
+    accent: "#B07D3A"
+    accentSoft: "#F0E6D6"
+    ink: "#1F2933"
+    gray: "#5C6B7A"
+    faint: "#97A5B2"
+    hairline: "#D5DDE5"
+    paper: "#FFFFFF"
+  textStyles:
+    kicker:
+      fontSize: 10
+      color: "$primaryMid"
+      letterSpacing: 3
+      bold: true
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+    nav:
+      fontSize: 9
+      color: "$faint"
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+    pageTitle:
+      fontSize: 24
+      color: "$ink"
+      bold: true
+      fontFamily: {latin: "Oranienbaum", ea: "思源宋体"}
+      lineHeight: 1.2
+    pageSub:
+      fontSize: 12.5
+      color: "$gray"
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      lineHeight: 1.4
+    h2:
+      fontSize: 13.5
+      color: "$primary"
+      bold: true
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+    body:
+      fontSize: 11
+      color: "$ink"
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      lineHeight: 1.55
+    small:
+      fontSize: 9.5
+      color: "$gray"
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      lineHeight: 1.45
+    source:
+      fontSize: 8
+      color: "$faint"
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+  tableStyles:
+    default:
+      cellStyle:
+        fontSize: 10
+        color: "$ink"
+        align: [left, middle]
+        border: null
+        fontFamily: {latin: "Liter", ea: "MiSans"}
+      firstRowStyle:
+        fill: {type: solid, color: "$primary"}
+        color: "#FFFFFF"
+        bold: true
+        fontSize: 10
+        align: [left, middle]
+      firstColumnStyle:
+        bold: true
+      bodyStyles:
+        - border: [null, null, {style: solid, width: 0.75, color: "$hairline"}]
+pages:
+  - pages/01_cover.page
+  - pages/02_toc.page
+  - pages/03_thesis.page
+  - pages/04_landscape.page
+  - pages/05_t1_divider.page
+  - pages/06_t1_cursor.page
+  - pages/07_t1_opencode.page
+  - pages/08_t1_supergrok.page
+  - pages/09_t1_codex.page
+  - pages/10_t2_divider.page
+  - pages/11_t2_kimi.page
+  - pages/12_t2_zhipu.page
+  - pages/13_t2_minimax.page
+  - pages/14_t2_deepseek.page
+  - pages/15_t2_qwen.page
+  - pages/16_t2_volcengine.page
+  - pages/17_t2_gemini.page
+  - pages/18_t3_divider.page
+  - pages/19_t3_commandcode.page
+  - pages/20_t3_sensetime_step.page
+  - pages/21_t3_mimo_ollama.page
+  - pages/22_office.page
+  - pages/23_summary_table.page
+  - pages/24_final.page

@@ -1,2 +1,35 @@
-# ai-subscription-harness-analysis
-AI订阅与Harness工具生态对比分析 — 24页PPT工程（kimi-slides pptd格式）+ 视频讲解脚本 + 视频封面
+# AI 订阅与 Harness 工具生态对比分析
+
+> 订阅只是入场券，Harness 工具才是主战场。
+> 三大梯队 · 18+ 款产品 ·「订阅 × 自家工具」绑定式横向评测（数据截至 2026-08）
+
+## 仓库内容
+
+| 路径 | 说明 |
+|---|---|
+| `ai-subscription-harness/` | 24 页 PPT 完整工程（kimi-slides `.pptd` 格式） |
+| `ai-subscription-harness/ai-subscription-harness.pptd` | PPT 主入口文件（主题/页面清单） |
+| `ai-subscription-harness/pages/` | 24 个 `.page` 页面文件（YAML DSL） |
+| `ai-subscription-harness/style-guide.md` | 全套视觉规范（配色/字体/版式坐标） |
+| `docs/视频讲解脚本框架.md` | 配套视频逐页口播脚本 + 金句库 + 切片建议 |
+| `plan.md` | 项目执行计划 |
+
+## PPT 结构（24 页）
+
+- P01–04 封面 / 目录 / 核心观点（订阅 × 自家 Harness = 真实战力）/ 三梯队全景
+- P05–09 第一梯队：Cloud Cursor · OpenCode Go · SuperGrok · Codex × ChatGPT
+- P10–17 第二梯队：Kimi×Kimi Code · 智谱×Z Code · MiniMax · DeepSeek API · 千问 · 火山引擎 · Gemini AI Pro
+- P18–21 第三梯队：Command Code · 商汤 · 阶跃星辰 · 小米 MiMo · Ollama Pro
+- P22 独立赛道：国内办公类 Agent（WorkBuddy / 豆包工作 / 千问办公 / 钉钉·飞书·企微·WPS AI）
+- P23–24 16 款「订阅×Harness」五维对比大表 + 按人群选型路线
+
+## 如何导出 PPTX
+
+`.pptd` 是 Kimi 的 PPT 中间格式（YAML DSL）。在 Kimi 中打开 pptd 文件卡片进入编辑器，点击「导出」即可获得 .pptx 或图片格式。
+
+## 视频封面
+
+配套 16:9 视频封面（深墨蓝 + 铜色，与 PPT 同一视觉体系）为二进制 PNG 文件，请从 Kimi 对话产物中获取后手动上传（GitHub MCP 暂不支持二进制文件可靠上传）。
+
+---
+*由 Kimi Agent 多智能体协作生成：3 个研究 Agent + 3 个撰写 Agent 并行作业，全册通过 kimi-slides 校验。*
