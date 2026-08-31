@@ -1,44 +1,58 @@
 # AI 订阅与 Harness 工具生态对比分析
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![数据时间](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%97%B6%E9%97%B4-2026%E5%B9%B48--9%E6%9C%88-blue.svg)]()
+[![数据时间](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%97%B6%E9%97%B4-2026%E5%B9%B47--9%E6%9C%88-blue.svg)]()
 
-> 订阅只是入场券，Harness 工具才是主战场。
-> 三大梯队 · 18+ 款产品 ·「订阅 × 自家工具」绑定式横向评测
->
-> **📅 数据与价格信息采集时间：2026 年 8–9 月**——AI 订阅市场价格与档位变动极快，阅读时请以各官网最新信息为准。
+> 按时间批次归档 AI 编程订阅、Token 套餐、通用会员与 Harness 工具生态分析。  
+> 价格、额度和产品状态变化很快，请以每批材料标注的数据截止日期为准。
 
-## 仓库内容
+## 分析归档
+
+| 时间范围 | 主题 | 形式 | 数据截止日期 | 入口 |
+|---|---|---|---|---|
+| 2026 年 7–8 月 | AI Coding Plan、Token Plan 与会员体系全景对比 | 16 页 PPTX，约 15 分钟 | 2026-07-27 | [查看与下载](./2026-07-27-coding-token-plans/) |
+| 2026 年 8–9 月 | AI 订阅与 Harness 工具生态对比 | 24 页 PPT 工程 + 视频脚本 | 2026 年 8–9 月 | [查看工程](./2026-08-31-ai-subscription-harness/) |
+
+## 2026 年 7–8 月：Coding Plan、Token Plan 与会员体系
+
+覆盖 13 类产品与服务，区分 Coding Agent / AI IDE 订阅、API Token 套餐、通用大模型会员、本地模型云端增值服务和混合型产品，不把不同口径的额度强行折算。
+
+内容包括产品名称核验、分类地图、全景对比、国内外方案、价格与额度标准化、能力热力表、隐私风险、场景推荐和选择决策树。
+
+## 2026 年 8–9 月：订阅 × Harness 工具生态
+
+> 订阅只是入场券，Harness 工具才是主战场。  
+> 三大梯队 · 18+ 款产品 ·「订阅 × 自家工具」绑定式横向评测。
+
+### 工程内容
 
 | 路径 | 说明 |
 |---|---|
-| `ai-subscription-harness/` | 24 页 PPT 完整工程（kimi-slides `.pptd` 格式） |
-| `ai-subscription-harness/ai-subscription-harness.pptd` | PPT 主入口文件（主题/页面清单） |
-| `ai-subscription-harness/pages/` | 24 个 `.page` 页面文件（YAML DSL） |
-| `ai-subscription-harness/style-guide.md` | 全套视觉规范（配色/字体/版式坐标） |
-| `docs/视频讲解脚本框架.md` | 配套视频逐页口播脚本 + 金句库 + 切片建议 |
-| `plan.md` | 项目执行计划 |
+| `2026-08-31-ai-subscription-harness/ai-subscription-harness.pptd` | 24 页 PPT 主入口文件（kimi-slides YAML DSL） |
+| `2026-08-31-ai-subscription-harness/pages/` | 24 个 `.page` 页面文件 |
+| `2026-08-31-ai-subscription-harness/style-guide.md` | 视觉规范（配色、字体、版式坐标） |
+| `2026-08-31-ai-subscription-harness/docs/视频讲解脚本框架.md` | 配套逐页口播脚本、金句库与切片建议 |
+| `2026-08-31-ai-subscription-harness/plan.md` | 项目执行计划 |
 
-## PPT 结构（24 页）
+### 24 页结构
 
-- P01–04 封面 / 目录 / 核心观点（订阅 × 自家 Harness = 真实战力）/ 三梯队全景
-- P05–09 第一梯队：Cloud Cursor · OpenCode Go · SuperGrok · Codex × ChatGPT
-- P10–17 第二梯队：Kimi×Kimi Code · 智谱×Z Code · MiniMax · DeepSeek API · 千问 · 火山引擎 · Gemini AI Pro
-- P18–21 第三梯队：Command Code · 商汤 · 阶跃星辰 · 小米 MiMo · Ollama Pro
-- P22 独立赛道：国内办公类 Agent（WorkBuddy / 豆包工作 / 千问办公 / 钉钉·飞书·企微·WPS AI）
-- P23–24 16 款「订阅×Harness」五维对比大表 + 按人群选型路线
+- P01–04：封面、目录、核心观点、三梯队全景
+- P05–09：第一梯队——Cloud Cursor、OpenCode Go、SuperGrok、Codex × ChatGPT
+- P10–17：第二梯队——Kimi × Kimi Code、智谱 × Z Code、MiniMax、DeepSeek API、千问、火山引擎、Gemini AI Pro
+- P18–21：第三梯队——Command Code、商汤、阶跃星辰、小米 MiMo、Ollama Pro
+- P22：国内办公类 Agent
+- P23–24：五维对比大表与按人群选型路线
 
-## 如何导出 PPTX
+### 导出 PPTX
 
-`.pptd` 是 Kimi 的 PPT 中间格式（YAML DSL）。在 Kimi 中打开 pptd 文件卡片进入编辑器，点击「导出」即可获得 .pptx 或图片格式。
+`.pptd` 是 Kimi 的 PPT 中间格式。在 Kimi 中打开 pptd 文件卡片进入编辑器，点击“导出”即可获得 PPTX 或图片格式。
 
-## 视频封面
+## 数据与商标说明
 
-配套 16:9 视频封面（深墨蓝 + 铜色，与 PPT 同一视觉体系）为二进制 PNG 文件，请从 Kimi 对话产物中获取后手动上传（GitHub MCP 暂不支持二进制文件可靠上传）。
+- 资料中的价格、额度、模型和套餐规则具有时效性，不构成购买建议。
+- 产品名称、Logo 和商标归各自权利人所有，仅用于识别、评论与比较。
+- CC BY 4.0 仅授权本仓库作者有权许可的原创内容，不授予第三方商标权。
 
 ## License
 
-本项目采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans) 知识共享署名 4.0 国际许可协议：可自由分享与改编（包括商用），只需署名原作者并标明是否做了修改。
-
----
-*由 Kimi Agent 多智能体协作生成（2026-08/09）：3 个研究 Agent + 3 个撰写 Agent 并行作业，全册通过 kimi-slides 校验。*
+本项目采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans) 知识共享署名 4.0 国际许可协议：可自由分享与改编（包括商用），但须署名并标明是否修改。
