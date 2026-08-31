@@ -1,0 +1,69 @@
+pageType: table_of_contents
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: toc-kicker
+    elementType: text
+    bounds: [48, 40, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: CONTENTS}
+  - elementId: toc-title
+    elementType: text
+    bounds: [48, 62, 400, 40]
+    content:
+      style: "$pageTitle"
+      fontSize: 30
+      wrap: false
+      align: [left, middle]
+      text: 目录
+  - elementId: toc-bar
+    elementType: shape
+    bounds: [48, 116, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: toc-line
+    elementType: shape
+    bounds: [48, 121, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: toc-items
+    elementType: text
+    bounds: [48, 148, 620, 330]
+    content:
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      align: [left, top]
+      text: |
+        <p><span style="font-size:13px; color:$primaryMid"><strong>01</strong></span><span style="font-size:14px; color:$ink"><strong>　核心观点与分析框架</strong></span><span style="font-size:10px; color:$faint">　　P03–04</span></p>
+        <p style="margin-top:6px"><span style="font-size:10px; color:$gray">订阅 × Harness 公式与三梯队全景地图</span></p>
+        <p style="margin-top:18px"><span style="font-size:13px; color:$primaryMid"><strong>02</strong></span><span style="font-size:14px; color:$ink"><strong>　第一梯队 · 顶级国际与头部产品</strong></span><span style="font-size:10px; color:$faint">　　P05–09</span></p>
+        <p style="margin-top:6px"><span style="font-size:10px; color:$gray">Cloud Cursor / OpenCode Go / SuperGrok / Codex × ChatGPT 会员</span></p>
+        <p style="margin-top:18px"><span style="font-size:13px; color:$primaryMid"><strong>03</strong></span><span style="font-size:14px; color:$ink"><strong>　第二梯队 · 国产主力与部分国际</strong></span><span style="font-size:10px; color:$faint">　　P10–17</span></p>
+        <p style="margin-top:6px"><span style="font-size:10px; color:$gray">Kimi×Kimi Code / 智谱×Z Code / MiniMax / DeepSeek API / 千问 Token Plan / 火山引擎 / Gemini AI Pro</span></p>
+        <p style="margin-top:18px"><span style="font-size:13px; color:$primaryMid"><strong>04</strong></span><span style="font-size:14px; color:$ink"><strong>　第三梯队 · 新兴、垂直与轻量</strong></span><span style="font-size:10px; color:$faint">　　P18–21</span></p>
+        <p style="margin-top:6px"><span style="font-size:10px; color:$gray">Command Code / 商汤 / 阶跃星辰 / 小米 MiMo / Ollama Pro</span></p>
+        <p style="margin-top:18px"><span style="font-size:13px; color:$primaryMid"><strong>05</strong></span><span style="font-size:14px; color:$ink"><strong>　独立赛道 · 国内办公类 Agent 工具</strong></span><span style="font-size:10px; color:$faint">　　P22</span></p>
+        <p style="margin-top:6px"><span style="font-size:10px; color:$gray">腾讯 WorkBuddy / 豆包办公 Agent / 阿里千问办公 / 钉钉 · 飞书 · 企微 · WPS AI</span></p>
+        <p style="margin-top:18px"><span style="font-size:13px; color:$primaryMid"><strong>06</strong></span><span style="font-size:14px; color:$ink"><strong>　总结对比与选型建议</strong></span><span style="font-size:10px; color:$faint">　　P23–24</span></p>
+        <p style="margin-top:6px"><span style="font-size:10px; color:$gray">五维横向对比大表 · 按人群的选购路线</span></p>
+  - elementId: toc-side-deco
+    elementType: shape
+    bounds: [820, 148, 4, 330]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: toc-side-text
+    elementType: text
+    bounds: [680, 148, 120, 330]
+    content:
+      fontSize: 10
+      color: "$gray"
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      lineHeight: 1.8
+      align: [left, top]
+      text: |
+        <p><strong>阅读提示</strong></p>
+        <p style="margin-top:8px">每个产品页都按同一框架拆解：价格 → 模型 → 自家工具 → 闭环程度。</p>
+        <p style="margin-top:8px">页底铜色点评条是「订阅×工具」绑定逻辑的一句话总结。</p>
+  - elementId: toc-footer
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "02 / 24"}

@@ -1,0 +1,101 @@
+pageType: cover
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: cover-accent-bar
+    elementType: shape
+    bounds: [48, 118, 64, 4]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: cover-kicker
+    elementType: text
+    bounds: [48, 136, 620, 16]
+    content:
+      style: "$kicker"
+      wrap: false
+      align: [left, middle]
+      text: AI SUBSCRIPTION × HARNESS ECOSYSTEM · 2026.08
+  - elementId: cover-title
+    elementType: text
+    bounds: [48, 168, 660, 112]
+    content:
+      fontFamily: {latin: "Oranienbaum", ea: "思源宋体"}
+      fontSize: 40
+      bold: true
+      color: "$ink"
+      lineHeight: 1.3
+      align: [left, top]
+      text: |
+        <p>AI 订阅与 Harness 工具</p>
+        <p>生态对比分析</p>
+  - elementId: cover-slogan
+    elementType: text
+    bounds: [48, 296, 660, 24]
+    content:
+      fontSize: 15
+      color: "$accent"
+      bold: true
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      wrap: false
+      align: [left, middle]
+      text: 订阅只是入场券，Harness 工具才是主战场
+  - elementId: cover-sub
+    elementType: text
+    bounds: [48, 330, 620, 40]
+    content:
+      style: "$small"
+      fontSize: 11
+      align: [left, top]
+      text: |
+        <p>三大梯队 · 18+ 款产品 ·「订阅 × 自家工具」绑定式横向评测</p>
+        <p>价格档位 / 模型能力 / Harness 成熟度 / 生态闭环 / 适合场景</p>
+  - elementId: cover-deco-x
+    elementType: text
+    bounds: [640, 96, 290, 300]
+    content:
+      fontFamily: {latin: "Oranienbaum", ea: "思源宋体"}
+      fontSize: 240
+      color: "$tint"
+      bold: true
+      align: [center, middle]
+      wrap: false
+      text: ×
+  - elementId: cover-deco-label1
+    elementType: text
+    bounds: [676, 196, 220, 18]
+    content:
+      fontSize: 11
+      bold: true
+      color: "$primary"
+      letterSpacing: 2
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      wrap: false
+      align: [center, middle]
+      text: SUBSCRIPTION
+  - elementId: cover-deco-label2
+    elementType: text
+    bounds: [676, 296, 220, 18]
+    content:
+      fontSize: 11
+      bold: true
+      color: "$accent"
+      letterSpacing: 2
+      fontFamily: {latin: "Liter", ea: "MiSans"}
+      wrap: false
+      align: [center, middle]
+      text: HARNESS
+  - elementId: cover-footline
+    elementType: shape
+    bounds: [48, 462, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: cover-footer
+    elementType: text
+    bounds: [48, 476, 864, 16]
+    content:
+      style: "$small"
+      fontSize: 10
+      wrap: false
+      align: [left, middle]
+      text: 2026 年 8 月 · 专业分析版 · 数据截至各厂商官网最新公示价格
