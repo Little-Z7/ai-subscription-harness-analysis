@@ -1,0 +1,177 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 2 · 第二梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · <span style="color:$primaryMid"><strong>第二梯队</strong></span> · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      wrap: false
+      align: [left, middle]
+      text: Kimi 会员的每一档，都是 Kimi Code 的算力钥匙
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: ¥49–699 五级阶梯——额度、Agent 并行数与 1M 上下文逐档解锁，国产 CLI 成熟度居首}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 40]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter,MiSans"><strong>Kimi 会员 × Kimi Code</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$faint">月之暗面 Moonshot AI · 会员订阅 + 官方编程工具</span></p>
+  - elementId: plan-h2
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, text: 订阅档位与价格}
+  - elementId: plan-table
+    elementType: table
+    bounds: [48, 204, 300, 140]
+    columnWidths: [0.27, 0.23, 0.50]
+    rowHeights: [0.16, 0.168, 0.168, 0.168, 0.168, 0.168]
+    style: "$default"
+    rows:
+      - - text: 档位
+        - text: 价格
+        - text: 要点
+      - - text: Adagio
+        - text: 免费
+        - text: 入门体验
+      - - text: Andante
+        - text: ¥49/月
+        - text: 5h 配额·7 天刷新
+      - - text: Moderato
+        - text: ¥99/月
+        - text: 配额进阶
+      - - text: Allegretto
+        - text: ¥199/月
+        - text: Kimi Claw·集群 40 次/月
+      - - text: Allegro
+        - text: ¥699/月
+        - text: K3 完整 1M·4 Agent 并行
+  - elementId: pros-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, text: 独特卖点与短板}
+  - elementId: pros-body
+    elementType: text
+    bounds: [48, 380, 300, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：1M 上下文大仓库 + 长任务 Agent，国产 CLI 成熟度第一。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：算力紧张限购（2026-07 起新订阅一度转 Waitlist），Skills 生态不及 Claude Code。</p>
+  - elementId: model-h2
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, text: 模型能力}
+  - elementId: model-body
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>Kimi K3：2.8T MoE、1M 上下文、已开源；Program Bench 77.8 与 GPT-5.6 Sol 持平，SWE Marathon 42.0 排名第一。Kimi Code 默认模型为 K2.7-Code——同一 CLI 下，K3 长任务成功率 <strong>45.8%</strong>，K2.7 仅 <strong>7.2%</strong>，差距被工具放大 6.4 倍。</p>
+  - elementId: sep1
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: harness-h2
+    elementType: text
+    bounds: [376, 228, 200, 15]
+    content: {style: "$h2", wrap: false, text: 配套 Harness 工具}
+  - elementId: harness-rate
+    elementType: text
+    bounds: [560, 228, 352, 15]
+    content:
+      fontSize: 11
+      bold: true
+      color: "$accent"
+      wrap: false
+      align: [right, middle]
+      text: 成熟度 ●●●●○
+  - elementId: harness-body
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      fontSize: 10.5
+      align: [left, top]
+      text: |
+        <p>Kimi Code CLI（MIT 开源）+ VS Code 插件 + Web 三端；Plan/Goal 模式、Sub-agents、Agent Swarm，Skills/Hooks/MCP/Plugins 四层扩展。国产 CLI 成熟度居首，生态厚度仍不及 Claude Code。</p>
+  - elementId: sep2
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: loop-h2
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, text: 生态闭环与适合场景}
+  - elementId: loop-body
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>CLI 开箱默认 Kimi 模型，订阅额度与官方工具通道绑定。适合：超长上下文大仓库改造、长任务自动化 Agent 团队；想用上 K3 完整 1M 上下文与 4 Agent 并行，必须上 ¥699 Allegro 档。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>¥49 到 ¥699 的阶梯，本质是 Kimi Code 里「Agent 并行数 × 上下文长度」的解锁钥匙——不买高档，K3 的 1M 上下文只是宣传页上的数字。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://codingplan.org/plans/kimi">CodingPlan 观测站（Kimi）</a> · <a href="https://www.pingwest.com/a/316812">品玩</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "11 / 24"}
