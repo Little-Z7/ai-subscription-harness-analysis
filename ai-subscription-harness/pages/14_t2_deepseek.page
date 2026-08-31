@@ -1,0 +1,174 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 2 · 第二梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · <span style="color:$primaryMid"><strong>第二梯队</strong></span> · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      wrap: false
+      align: [left, middle]
+      text: DeepSeek 是全场唯一没有订阅可卖的玩家
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: C 端免费 + B 端 API 峰谷计价——它不卖订阅，卖的是所有 Harness 都能加的燃料}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: prod-name
+    elementType: text
+    bounds: [48, 124, 300, 40]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:20px; color:$primary; font-family:Liter,MiSans"><strong>DeepSeek API</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9.5px; color:$faint">深度求索 · 无 C 端订阅，仅 B 端 API 按量</span></p>
+  - elementId: plan-h2
+    elementType: text
+    bounds: [48, 184, 300, 15]
+    content: {style: "$h2", wrap: false, text: 计费档位与价格}
+  - elementId: plan-table
+    elementType: table
+    bounds: [48, 204, 300, 140]
+    columnWidths: [0.22, 0.48, 0.30]
+    rowHeights: [0.18, 0.205, 0.205, 0.205, 0.205]
+    style: "$default"
+    rows:
+      - - text: 产品
+        - text: 价格（$/百万 token）
+        - text: 要点
+      - - text: 网页/App
+        - text: 免费
+        - text: C 端不收钱
+      - - text: V4-Flash
+        - text: 谷 0.22/0.66 · 峰 0.44/1.32
+        - text: 峰时 9–12、14–18 点
+      - - text: V4-Pro
+        - text: 谷 0.66/1.98 · 峰 1.32/3.96
+        - text: 同上峰谷
+      - - text: 缓存命中
+        - text: 输入低至 0.0028–0.007
+        - text: 缓存折扣最深
+  - elementId: pros-h2
+    elementType: text
+    bounds: [48, 360, 300, 15]
+    content: {style: "$h2", wrap: false, text: 独特卖点与短板}
+  - elementId: pros-body
+    elementType: text
+    bounds: [48, 380, 300, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>卖点</strong>：成本敏感的批量推理、Agent 后端、自托管部署。</p>
+        <p style="margin-top:4px"><strong>短板</strong>：无订阅、无官方工具、限流，峰时涨价需按时段调度。</p>
+  - elementId: model-h2
+    elementType: text
+    bounds: [376, 124, 536, 15]
+    content: {style: "$h2", wrap: false, text: 模型能力}
+  - elementId: model-body
+    elementType: text
+    bounds: [376, 144, 536, 64]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>V4 系列：1M 上下文、384K 输出、MIT 开源，兼容 OpenAI / Anthropic 双协议；2026-08 起峰谷计价（峰时=北京时间 9–12、14–18 点），缓存命中输入低至 <strong>$0.0028–0.007/M</strong>，各家缓存折扣最深。</p>
+  - elementId: sep1
+    elementType: shape
+    bounds: [376, 216, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: harness-h2
+    elementType: text
+    bounds: [376, 228, 200, 15]
+    content: {style: "$h2", wrap: false, text: 配套 Harness 工具}
+  - elementId: harness-rate
+    elementType: text
+    bounds: [560, 228, 352, 15]
+    content:
+      fontSize: 11
+      bold: true
+      color: "$accent"
+      wrap: false
+      align: [right, middle]
+      text: 成熟度 ●○○○○
+  - elementId: harness-body
+    elementType: text
+    bounds: [376, 248, 536, 60]
+    content:
+      style: "$body"
+      fontSize: 10.5
+      align: [left, top]
+      text: |
+        <p><strong>无官方 Harness 工具</strong>——须搭配 Claude Code、Cline 等第三方 harness，也被火山引擎、阿里云百炼等套餐聚合。没有任何工具为它深度联调，也没有任何工具把它排除在外。</p>
+  - elementId: sep2
+    elementType: shape
+    bounds: [376, 316, 536, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: loop-h2
+    elementType: text
+    bounds: [376, 328, 536, 15]
+    content: {style: "$h2", wrap: false, text: 生态闭环与适合场景}
+  - elementId: loop-body
+    elementType: text
+    bounds: [376, 348, 536, 84]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>反闭环的极端样本：工具随便挑、自托管随意，「Harness 自由」的代价是没有任何联合优化红利。适合：成本敏感的批量推理、Agent 后端、自建工具链的技术团队。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p>它是「Harness 自由」的燃料供应商——工具随便挑，但没有任何一个工具为它深度联调；你省下订阅费，付出的是自己搭工具链的成本。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://news.qiniu.com/archives/1787109274281">七牛云资讯（峰谷计价）</a> · <a href="https://devtk.ai/zh/models/deepseek-v4-flash/">DevTK（V4-Flash）</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "14 / 24"}
