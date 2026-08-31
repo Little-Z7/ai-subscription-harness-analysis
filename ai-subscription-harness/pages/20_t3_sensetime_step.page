@@ -1,0 +1,166 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 3 · 第三梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · 第二梯队 · <span style="color:$primaryMid"><strong>第三梯队</strong></span> · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: 商汤免费、阶跃半价：第三梯队先把你的 Harness 圈进来
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 一个用免费公测换数据与入口，一个用翻倍额度换口碑——价格战的目标不是模型收入，是你的工具习惯}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: centerline
+    elementType: shape
+    bounds: [480, 122, 0.75, 318]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: a-name
+    elementType: text
+    bounds: [48, 124, 420, 34]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:18px; color:$primary; font-family:Liter"><strong>商汤 Token Plan</strong></span></p>
+        <p style="margin-top:3px"><span style="font-size:9px; color:$gray">SenseNova · 商汤科技 ｜ 2026-05 上线公测</span></p>
+  - elementId: a-price-h2
+    elementType: text
+    bounds: [48, 166, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 档位与价格}
+  - elementId: a-price-body
+    elementType: text
+    bounds: [48, 184, 420, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>公测期完全免费</strong>：每模型每 5 小时 1500 次调用、最多 20 个 API Key，兼容 OpenAI 格式，可接 OpenClaw / Cherry Studio。</p>
+        <p style="margin-top:4px">付费档 <strong>Lite / Pro</strong> 标注「即将上线」、价格未公布；从 API 转向 Token 计量。</p>
+  - elementId: a-tool-h2
+    elementType: text
+    bounds: [48, 256, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 模型与工具}
+  - elementId: a-tool-body
+    elementType: text
+    bounds: [48, 274, 420, 78]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p>模型底座 <strong>SenseNova U1 Pro</strong>（2026 WAIC 发布，NEO-unify 原生多模态，定位「长程任务交付级智能体基座」）。配套<strong>小浣熊代码助手 Raccoon</strong>：个人版完全免费（VS Code / JetBrains，30+ 语言），企业版私有化定制、50-100 人团队首年 TCO 约 10-30 万元；办公小浣熊负责信息图生成。</p>
+  - elementId: a-loop-h2
+    elementType: text
+    bounds: [48, 360, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 闭环与场景}
+  - elementId: a-loop-body
+    elementType: text
+    bounds: [48, 378, 420, 60]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p>闭环中：模型 + SenseCore 算力 + 小浣熊应用 + Token Plan 开放接口；C 端免费获客、B 端政企私有化，<strong>非典型订阅</strong>。短板：编程模型非第一梯队、付费档未落地。</p>
+  - elementId: b-name
+    elementType: text
+    bounds: [492, 124, 420, 34]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:18px; color:$primary; font-family:Liter"><strong>阶跃星辰 Step Plan</strong></span></p>
+        <p style="margin-top:3px"><span style="font-size:9px; color:$gray">StepFun · 阶跃星辰 ｜ 国产 Coding Plan 性价比标杆</span></p>
+  - elementId: b-price-h2
+    elementType: text
+    bounds: [492, 166, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 档位与价格}
+  - elementId: b-price-body
+    elementType: text
+    bounds: [492, 184, 420, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>Flash Mini ¥49 ｜ Flash Plus ¥99 ｜ Flash Pro ¥199 ｜ Flash Max ¥699</strong>，开发者社区限时半价、低至 ¥25。</p>
+        <p style="margin-top:4px">按 Prompt 计费（1 Prompt ≈ 15-20 次模型调用），5h + 周双限额；全档位统一高速推理，配专用 Base URL。</p>
+  - elementId: b-tool-h2
+    elementType: text
+    bounds: [492, 256, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 模型与工具}
+  - elementId: b-tool-body
+    elementType: text
+    bounds: [492, 274, 420, 78]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p>套餐仅含 <strong>Step 3.5 Flash</strong> 单模型（OpenRouter 周榜全球第一，旗舰未进套餐），支持智能路由切换 DeepSeek V4 Pro。<strong>不绑工具</strong>：兼容 OpenClaw / Claude Code / Cursor / Cline / Trae，MCP 支持规划中。</p>
+  - elementId: b-loop-h2
+    elementType: text
+    bounds: [492, 360, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 闭环与场景}
+  - elementId: b-loop-body
+    elementType: text
+    bounds: [492, 378, 420, 60]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>¥99 档 5h 额度宣称是行业 ¥200 档的 2-6 倍</strong>——2026 国产 Coding Plan 性价比标杆。短板：单模型依赖、推广价或回调；公司筹备港股 IPO，价格策略或再变。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", fontFamily: {latin: "Liter", ea: "MiSans"}, wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, middle]
+      wrap: false
+      text: 商汤用免费换数据、阶跃用额度换口碑——第三梯队的共同打法，是先把你的 Harness 骗进来再说。
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://www.sensenova.cn/token-plan">商汤 SenseNova Token Plan 官网</a> · <a href="https://finance.sina.com.cn/tech/roll/2026-03-23/doc-inhrxzzu1205015.shtml">新浪财经（阶跃 Step Plan）</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "20 / 24"}

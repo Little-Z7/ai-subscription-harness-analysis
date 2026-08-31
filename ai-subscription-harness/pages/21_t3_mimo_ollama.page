@@ -1,0 +1,166 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: TIER 3 · 第三梯队}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p>核心框架 · 第一梯队 · 第二梯队 · <span style="color:$primaryMid"><strong>第三梯队</strong></span> · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: 小米赌生态入口、Ollama 赌隐私主权：轻量订阅卖自主权
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 一个用开源 MIT 与 ¥39 不限窗口给「人车家」生态供能，一个用固定月费保证数据不出机——都不卖模型，卖控制权}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: centerline
+    elementType: shape
+    bounds: [480, 122, 0.75, 318]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: a-name
+    elementType: text
+    bounds: [48, 124, 420, 34]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:18px; color:$primary; font-family:Liter"><strong>小米 MiMo Token Plan</strong></span></p>
+        <p style="margin-top:3px"><span style="font-size:9px; color:$gray">MiMo · 小米大模型团队 ｜ 开源 MIT 可商用</span></p>
+  - elementId: a-price-h2
+    elementType: text
+    bounds: [48, 166, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 档位与价格}
+  - elementId: a-price-body
+    elementType: text
+    bounds: [48, 184, 420, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>MiMo 编程套餐 ¥39/月</strong>——国产 Coding Plan 中<strong>唯一不限 5 小时窗口</strong>；API 永久降价最高 99%（约为国际竞品 1/5），凌晨 0-8 点再 8 折。</p>
+        <p style="margin-top:4px">另有百亿 Token 创造者激励；更早 V2-Flash 低至 $0.1 / $0.3 每百万 Token。</p>
+  - elementId: a-tool-h2
+    elementType: text
+    bounds: [48, 256, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 模型与工具}
+  - elementId: a-tool-body
+    elementType: text
+    bounds: [48, 274, 420, 78]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>MiMo-V2.5 / V2.5-Pro</strong>（2026-04 开源）：V2.5-Pro 登顶 Artificial Analysis 开源榜综合与 Agent 双第一，SWE-bench Pro 57.2 与 Claude Opus 4.6 持平，曾 4.3 小时近千轮工具调用从零写出 SysY 编译器——长程 Agent 稳定性是硬实力。</p>
+  - elementId: a-loop-h2
+    elementType: text
+    bounds: [48, 360, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 闭环与场景}
+  - elementId: a-loop-body
+    elementType: text
+    bounds: [48, 378, 420, 60]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p>定位为「人车家全生态」供能：手机 / 音箱 / 全屋智能 / 自动驾驶，开源打开发者生态。短板：迭代过快带来兼容性风险，工具链生态沉淀不及 Claude / 智谱。</p>
+  - elementId: b-name
+    elementType: text
+    bounds: [492, 124, 420, 34]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:18px; color:$primary; font-family:Liter"><strong>Ollama Pro</strong></span></p>
+        <p style="margin-top:3px"><span style="font-size:9px; color:$gray">Ollama Cloud Pro ｜ 本地软件永久免费不限量</span></p>
+  - elementId: b-price-h2
+    elementType: text
+    bounds: [492, 166, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 档位与价格}
+  - elementId: b-price-body
+    elementType: text
+    bounds: [492, 184, 420, 64]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p><strong>Cloud Free $0</strong>（1 并发）｜ <strong>Cloud Pro $20/月</strong>（年付 $200，3 并发、Free 的 50 倍用量、可上传私有模型）｜ Cloud Max $100（暂停新订阅扩容中）｜ Team $25/席 coming soon。</p>
+        <p style="margin-top:4px">计费不按 Token：GPU 时长 + 5h 会话 + 7 天周限额。</p>
+  - elementId: b-tool-h2
+    elementType: text
+    bounds: [492, 256, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 模型与工具}
+  - elementId: b-tool-body
+    elementType: text
+    bounds: [492, 274, 420, 78]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p>本地 ↔ 云端同一 OpenAI 兼容接口，<strong>改一个 base URL 即切换</strong>；云端目录含 gpt-oss 120B、qwen3-coder 480B、DeepSeek V3.2、Kimi K2.5、GLM-5 等开源权重模型；支持 <strong>ollama launch openclaw</strong> 一键起 Agent。</p>
+  - elementId: b-loop-h2
+    elementType: text
+    bounds: [492, 360, 420, 14]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: 闭环与场景}
+  - elementId: b-loop-body
+    elementType: text
+    bounds: [492, 378, 420, 60]
+    content:
+      style: "$small"
+      align: [left, top]
+      text: |
+        <p>固定月费无爆表焦虑；承诺不记录不训练 prompt、托管伙伴零数据保留，月下载量超 5200 万。短板：无 SLA、吞吐不及 vLLM（同卡约 1/2.6）、云端模型目录小于 Together / Fireworks。</p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 446, 4, 42]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-label
+    elementType: text
+    bounds: [64, 446, 220, 13]
+    content: {fontSize: 10, bold: true, color: "$accent", fontFamily: {latin: "Liter", ea: "MiSans"}, wrap: false, align: [left, middle], text: 订阅 × 工具 绑定逻辑}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 462, 848, 28]
+    content:
+      style: "$body"
+      align: [left, middle]
+      wrap: false
+      text: 一个赌「开源 + 硬件生态入口」，一个赌「本地隐私主权」——第三梯队的轻量订阅，卖的都是自主权。
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://mimo.mi.com/docs/zh-CN/updates/model">小米 MiMo 官方文档</a> · <a href="https://www.36kr.com/p/3826299800015748">36氪</a> · <a href="https://ollama.com/pricing">Ollama Pricing</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "21 / 24"}
