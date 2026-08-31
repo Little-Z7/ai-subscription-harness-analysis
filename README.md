@@ -6,12 +6,21 @@
 > 按时间批次归档 AI 编程订阅、Token 套餐、通用会员与 Harness 工具生态分析。  
 > 价格、额度和产品状态变化很快，请以每批材料标注的数据截止日期为准。
 
+## 项目简介
+
+本项目持续整理 AI 编程订阅市场的阶段性变化，既比较 Coding Plan、Token Plan 和通用会员的价格、额度与适用场景，也分析订阅与 Cursor、Codex、Claude Code、Kimi Code、OpenCode 等 Harness 工具结合后的真实开发体验。仓库保留可直接演示的 PPTX、可编辑工程、逐页脚本和视觉规范，方便分享、复用与二次创作。
+
 ## 分析归档
 
 | 时间范围 | 主题 | 形式 | 数据截止日期 | 入口 |
 |---|---|---|---|---|
-| 2026 年 7–8 月 | AI Coding Plan、Token Plan 与会员体系全景对比 | 16 页 PPTX，约 15 分钟 | 2026-07-27 | [查看与下载](./2026-07-27-coding-token-plans/) |
-| 2026 年 8–9 月 | AI 订阅与 Harness 工具生态对比 | 24 页 PPT 工程 + 视频脚本 | 2026 年 8–9 月 | [查看工程](./2026-08-31-ai-subscription-harness/) |
+| 2026 年 7–8 月 | AI Coding Plan、Token Plan 与会员体系全景对比 | 16 页 PPTX，约 15 分钟 | 2026-07-27 | [查看材料](./2026-07-27-coding-token-plans/) |
+| 2026 年 8–9 月 | AI 订阅与 Harness 工具生态对比 | 24 页 PPTX + 可编辑工程 + 视频脚本 | 2026 年 8–9 月 | [查看材料](./2026-08-31-ai-subscription-harness/) |
+
+## PPT 快速下载
+
+- [下载 2026 年 7–8 月 PPT（16 页）](https://raw.githubusercontent.com/Little-Z7/ai-subscription-harness-analysis/main/2026-07-27-coding-token-plans/AI_Coding_Plan_Token_Plan_%E4%BC%9A%E5%91%98%E4%BD%93%E7%B3%BB%E5%85%A8%E6%99%AF%E5%AF%B9%E6%AF%94_2026-07-27.pptx)
+- [下载 2026 年 8–9 月 PPT（24 页）](https://raw.githubusercontent.com/Little-Z7/ai-subscription-harness-analysis/main/2026-08-31-ai-subscription-harness/AI_Subscription_Harness_Ecosystem_Analysis_2026-08-31.pptx)
 
 ## 2026 年 7–8 月：Coding Plan、Token Plan 与会员体系
 
@@ -28,7 +37,8 @@
 
 | 路径 | 说明 |
 |---|---|
-| `2026-08-31-ai-subscription-harness/ai-subscription-harness.pptd` | 24 页 PPT 主入口文件（kimi-slides YAML DSL） |
+| `2026-08-31-ai-subscription-harness/AI_Subscription_Harness_Ecosystem_Analysis_2026-08-31.pptx` | 24 页成品 PPTX |
+| `2026-08-31-ai-subscription-harness/ai-subscription-harness.pptd` | PPT 主入口文件（kimi-slides YAML DSL） |
 | `2026-08-31-ai-subscription-harness/pages/` | 24 个 `.page` 页面文件 |
 | `2026-08-31-ai-subscription-harness/style-guide.md` | 视觉规范（配色、字体、版式坐标） |
 | `2026-08-31-ai-subscription-harness/docs/视频讲解脚本框架.md` | 配套逐页口播脚本、金句库与切片建议 |
