@@ -1,0 +1,192 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: CORE THESIS · 核心观点}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p><span style="color:$primaryMid"><strong>核心框架</strong></span> · 第一梯队 · 第二梯队 · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: 2026 年买 AI 订阅的本质：买「模型 × 自家工具」的联合优化额度
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 单独评价订阅好坏没有意义——同一模型换一套 Harness，战力可以差出 6 倍}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: formula-left
+    elementType: text
+    bounds: [80, 136, 240, 54]
+    content:
+      fontFamily: {latin: "Oranienbaum", ea: "思源宋体"}
+      fontSize: 21
+      bold: true
+      color: "$primary"
+      align: [center, middle]
+      wrap: false
+      text: 订阅 Subscription
+  - elementId: formula-times
+    elementType: text
+    bounds: [332, 136, 60, 54]
+    content: {fontSize: 30, bold: true, color: "$accent", align: [center, middle], wrap: false, text: "×"}
+  - elementId: formula-mid
+    elementType: text
+    bounds: [404, 136, 240, 54]
+    content:
+      fontFamily: {latin: "Oranienbaum", ea: "思源宋体"}
+      fontSize: 21
+      bold: true
+      color: "$primary"
+      align: [center, middle]
+      wrap: false
+      text: 自家 Harness 工具
+  - elementId: formula-eq
+    elementType: text
+    bounds: [656, 136, 50, 54]
+    content: {fontSize: 30, bold: true, color: "$accent", align: [center, middle], wrap: false, text: "="}
+  - elementId: formula-right
+    elementType: text
+    bounds: [718, 136, 190, 54]
+    content:
+      fontFamily: {latin: "Oranienbaum", ea: "思源宋体"}
+      fontSize: 21
+      bold: true
+      color: "$accent"
+      align: [center, middle]
+      wrap: false
+      text: 真实战力
+  - elementId: formula-cap1
+    elementType: text
+    bounds: [80, 192, 240, 13]
+    content: {fontSize: 9, color: "$faint", align: [center, top], wrap: false, text: 额度 · 模型池 · 优先通道}
+  - elementId: formula-cap2
+    elementType: text
+    bounds: [404, 192, 240, 13]
+    content: {fontSize: 9, color: "$faint", align: [center, top], wrap: false, text: IDE · CLI · 云端 Agent}
+  - elementId: formula-cap3
+    elementType: text
+    bounds: [718, 192, 190, 13]
+    content: {fontSize: 9, color: "$faint", align: [center, top], wrap: false, text: 跑分 · 交付 · 效率}
+  - elementId: evid-line
+    elementType: shape
+    bounds: [48, 222, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: evid-h1
+    elementType: text
+    bounds: [48, 240, 272, 16]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: ① 工具锁定模型}
+  - elementId: evid-b1
+    elementType: text
+    bounds: [48, 262, 272, 118]
+    content:
+      style: "$small"
+      fontSize: 10
+      align: [left, top]
+      text: |
+        <p>Cursor 的自家模型 <strong>Composer 2.5 没有公开 API</strong>，仅在 Cursor IDE/CLI 内可用，代理调用即违反条款封号。</p>
+        <p style="margin-top:6px">xAI 的 <strong>Grok Build 只跑自家 Grok 模型</strong>，且最初仅向 SuperGrok Heavy（$300/月）开放。</p>
+  - elementId: evid-h2
+    elementType: text
+    bounds: [344, 240, 272, 16]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: ② 订阅锁定工具}
+  - elementId: evid-b2
+    elementType: text
+    bounds: [344, 262, 272, 118]
+    content:
+      style: "$small"
+      fontSize: 10
+      align: [left, top]
+      text: |
+        <p>Codex <strong>没有独立订阅</strong>，焊死在每一档 ChatGPT 会员里；智谱 Coding Plan <strong>仅限官方支持的工具内使用</strong>，违规触发风控。</p>
+        <p style="margin-top:6px">2026 年 1 月 Anthropic 封杀第三方工具复用 Claude 订阅——闭环从趋势变成行业事实。</p>
+  - elementId: evid-h3
+    elementType: text
+    bounds: [640, 240, 272, 16]
+    content: {style: "$h2", fontSize: 12.5, wrap: false, text: ③ 联合优化出性能}
+  - elementId: evid-b3
+    elementType: text
+    bounds: [640, 262, 272, 118]
+    content:
+      style: "$small"
+      fontSize: 10
+      align: [left, top]
+      text: |
+        <p>Doubao-Seed-Code 与 TRAE <strong>深度联调后 SWE-Bench 78.8% 登顶</strong>；Kimi K3 + Kimi Code 长任务成功率 <strong>45.8%</strong>，同工具换旧模型 K2.7 仅 <strong>7.2%</strong>。</p>
+        <p style="margin-top:6px">厂商已把「模型+工具协同」当作官方卖点宣传。</p>
+  - elementId: evid-num1
+    elementType: text
+    bounds: [48, 390, 272, 44]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:26px; color:$primary; font-family:Oranienbaum"><strong>0</strong></span><span style="font-size:10px; color:$gray"> 个 Composer API 端点</span></p>
+        <p style="margin-top:2px"><span style="font-size:9px; color:$faint">模型再强，离开自家 IDE 就调用不到</span></p>
+  - elementId: evid-num2
+    elementType: text
+    bounds: [344, 390, 272, 44]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:26px; color:$primary; font-family:Oranienbaum"><strong>20+</strong></span><span style="font-size:10px; color:$gray"> 款工具纳入智谱套餐白名单</span></p>
+        <p style="margin-top:2px"><span style="font-size:9px; color:$faint">订阅额度只能走官方指定的 Harness 通道</span></p>
+  - elementId: evid-num3
+    elementType: text
+    bounds: [640, 390, 272, 44]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:26px; color:$accent; font-family:Oranienbaum"><strong>6.4×</strong></span><span style="font-size:10px; color:$gray"> 同工具换模型的战力差距</span></p>
+        <p style="margin-top:2px"><span style="font-size:9px; color:$faint">K3+Kimi Code 45.8% vs K2.7+Kimi Code 7.2%</span></p>
+  - elementId: note-bar
+    elementType: shape
+    bounds: [48, 452, 4, 34]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: note-text
+    elementType: text
+    bounds: [64, 452, 848, 36]
+    content:
+      style: "$small"
+      fontSize: 10
+      align: [left, middle]
+      text: |
+        <p><strong>阅读本报告的正确姿势</strong>：以下 18+ 款产品均按「订阅档位 → 模型能力 → 自家 Harness → 生态闭环」同一框架拆解，页底铜色条为绑定逻辑一句话点评。</p>
+  - elementId: source
+    elementType: text
+    bounds: [48, 512, 740, 12]
+    content:
+      style: "$source"
+      wrap: false
+      align: [left, middle]
+      text: |
+        <p>Source: <a href="https://forum.cursor.com/t/using-cursor-frontier-models-like-composer-2-5-in-external-harnesses-e-g-codex/164676">Cursor 官方论坛</a> · <a href="https://docs.bigmodel.cn/cn/coding-plan/overview">智谱 Coding Plan 文档</a> · <a href="https://tech.chinadaily.com.cn/a/202511/12/WS691441b2a310942cc499118b.html">中国日报（TRAE×Doubao 联调）</a>，2026-08</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "03 / 24"}

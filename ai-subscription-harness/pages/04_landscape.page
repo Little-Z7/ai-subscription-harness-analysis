@@ -1,0 +1,143 @@
+pageType: content
+background:
+  type: solid
+  color: "#FFFFFF"
+elements:
+  - elementId: kicker
+    elementType: text
+    bounds: [48, 26, 420, 14]
+    content: {style: "$kicker", wrap: false, align: [left, middle], text: LANDSCAPE · 梯队全景}
+  - elementId: nav
+    elementType: text
+    bounds: [480, 24, 432, 14]
+    content:
+      style: "$nav"
+      wrap: false
+      align: [right, middle]
+      text: |
+        <p><span style="color:$primaryMid"><strong>核心框架</strong></span> · 第一梯队 · 第二梯队 · 第三梯队 · 办公Agent · 总结</p>
+  - elementId: title
+    elementType: text
+    bounds: [48, 46, 864, 32]
+    content:
+      style: "$pageTitle"
+      fontSize: 22
+      wrap: false
+      align: [left, middle]
+      text: 一张地图看清全局：三个编程梯队 + 一条办公独立赛道
+  - elementId: subtitle
+    elementType: text
+    bounds: [48, 82, 864, 17]
+    content: {style: "$pageSub", wrap: false, align: [left, middle], text: 梯队按「模型能力 × Harness 成熟度 × 生态闭环」综合划分，与价格高低并不完全对应}
+  - elementId: titlebar
+    elementType: shape
+    bounds: [48, 106, 56, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: titleline
+    elementType: shape
+    bounds: [48, 111, 864, 0.75]
+    shapeName: rect
+    fill: {type: solid, color: "$hairline"}
+  - elementId: t1-bar
+    elementType: shape
+    bounds: [48, 136, 864, 86]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: t1-label
+    elementType: text
+    bounds: [68, 148, 150, 62]
+    content:
+      align: [left, middle]
+      text: |
+        <p><span style="font-size:11px; color:#FFFFFF99; letter-spacing:2px">TIER 1</span></p>
+        <p style="margin-top:4px"><span style="font-size:15px; color:#FFFFFF"><strong>顶级国际 · 头部产品</strong></span></p>
+  - elementId: t1-items
+    elementType: text
+    bounds: [236, 148, 656, 62]
+    content:
+      align: [left, middle]
+      lineHeight: 1.5
+      text: |
+        <p><span style="font-size:11.5px; color:#FFFFFF"><strong>Cloud Cursor　·　OpenCode Go　·　SuperGrok　·　Codex × ChatGPT</strong></span></p>
+        <p style="margin-top:4px"><span style="font-size:9.5px; color:#FFFFFFB3">模型与工具均为全球头部；闭环最深——Composer 无 API、Codex 无独立 SKU、Grok Build 仅限订阅用户</span></p>
+  - elementId: t2-bar
+    elementType: shape
+    bounds: [48, 234, 660, 86]
+    shapeName: rect
+    fill: {type: solid, color: "$primaryMid"}
+  - elementId: t2-label
+    elementType: text
+    bounds: [68, 246, 140, 62]
+    content:
+      align: [left, middle]
+      text: |
+        <p><span style="font-size:11px; color:#FFFFFF99; letter-spacing:2px">TIER 2</span></p>
+        <p style="margin-top:4px"><span style="font-size:15px; color:#FFFFFF"><strong>国产主力 + 部分国际</strong></span></p>
+  - elementId: t2-items
+    elementType: text
+    bounds: [216, 244, 476, 68]
+    content:
+      align: [left, middle]
+      lineHeight: 1.5
+      text: |
+        <p><span style="font-size:11px; color:#FFFFFF"><strong>Kimi × Kimi Code　·　智谱 × Z Code　·　MiniMax　·　DeepSeek API</strong></span></p>
+        <p><span style="font-size:11px; color:#FFFFFF"><strong>千问 Token Plan　·　火山引擎 Agent+Coding Plan　·　Gemini AI Pro</strong></span></p>
+        <p style="margin-top:3px"><span style="font-size:9px; color:#FFFFFFB3">模型追平国际、价格为 1/3–1/2；普遍「开放兼容」但额度通道绑定官方工具</span></p>
+  - elementId: t3-bar
+    elementType: shape
+    bounds: [48, 332, 520, 86]
+    shapeName: rect
+    fill: {type: solid, color: "$primarySoft"}
+  - elementId: t3-label
+    elementType: text
+    bounds: [68, 344, 130, 62]
+    content:
+      align: [left, middle]
+      text: |
+        <p><span style="font-size:11px; color:#FFFFFF99; letter-spacing:2px">TIER 3</span></p>
+        <p style="margin-top:4px"><span style="font-size:15px; color:#FFFFFF"><strong>新兴 · 垂直 · 轻量</strong></span></p>
+  - elementId: t3-items
+    elementType: text
+    bounds: [206, 344, 346, 62]
+    content:
+      align: [left, middle]
+      lineHeight: 1.5
+      text: |
+        <p><span style="font-size:11px; color:#FFFFFF"><strong>Command Code · 商汤 · 阶跃星辰</strong></span></p>
+        <p><span style="font-size:11px; color:#FFFFFF"><strong>小米 MiMo · Ollama Pro</strong></span></p>
+        <p style="margin-top:3px"><span style="font-size:9px; color:#FFFFFFB3">单点突破：极致价格 / 开源生态 / 本地隐私</span></p>
+  - elementId: office-block
+    elementType: shape
+    bounds: [596, 332, 316, 86]
+    shapeName: rect
+    fill: {type: solid, color: "$accentSoft"}
+  - elementId: office-accent
+    elementType: shape
+    bounds: [596, 332, 4, 86]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: office-label
+    elementType: text
+    bounds: [616, 342, 284, 66]
+    content:
+      align: [left, middle]
+      lineHeight: 1.45
+      text: |
+        <p><span style="font-size:10px; color:$accent; letter-spacing:2px"><strong>独立赛道</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:12.5px; color:$ink"><strong>国内办公类 Agent</strong></span></p>
+        <p style="margin-top:2px"><span style="font-size:9px; color:$gray">腾讯 WorkBuddy · 豆包工作 · 千问办公 · 钉钉/飞书/企微/WPS AI</span></p>
+  - elementId: axis-note
+    elementType: text
+    bounds: [48, 436, 864, 52]
+    content:
+      style: "$small"
+      fontSize: 10
+      align: [left, top]
+      text: |
+        <p><strong>梯队划分逻辑</strong>：第一梯队拼「模型×工具联合优化深度」，第二梯队拼「性价比 + 官方工具白名单」，第三梯队拼「单点长板」（最低价、开源、本地部署）。</p>
+        <p style="margin-top:4px">办公类 Agent 面向知识工作者（产出 PPT/表格/纪要），与编程 Harness（产出代码与 PR）是两条计费与生态逻辑完全不同的赛道，故单独成章。</p>
+  - elementId: pagenum
+    elementType: text
+    bounds: [860, 512, 52, 12]
+    content: {style: "$source", wrap: false, align: [right, middle], text: "04 / 24"}
